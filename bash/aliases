@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 # general
-alias ls='ls -p -G'
-alias ll='ls -l -h'
+alias l='ls -lahG'
 alias dotfiles="atom $HOME/dotfiles"
+alias psimple="python -m SimpleHTTPServer"
 
 # git
 alias g='git status'
@@ -21,3 +21,4 @@ alias gg='git grep'
 alias glo='git log'
 alias gl='git pull'
 alias gp='git push'
+alias lg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%ad>%Creset' --abbrev-commit --date=short"

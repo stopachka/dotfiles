@@ -1,0 +1,63 @@
+'.source.js':
+
+  #############################################################################
+  # React
+
+  'React: componentDidMount() { ... }':
+    prefix: 'cdm'
+    body: 'componentDidMount() {\n\t${1}\n}${2}'
+
+  'React: componentDidUpdate(pp, ps) { ... }':
+    prefix: 'cdu'
+    body: 'componentDidUpdate(${1}) {\n\t${2}\n}${3}'
+
+  'React: componentWillMount() { ... }':
+    prefix: 'cwm'
+    body: 'componentWillMount() {\n\t${1}\n}${2}'
+
+  'React: componentWillReceiveProps(np) { ... }':
+    prefix: 'cwr'
+    body: 'componentWillReceiveProps(nextProps) {\n\t${1}\n}${2}'
+
+  'React: componentWillUnmount() { ... }':
+    prefix: "cwun"
+    body: "componentWillUnmount() {\n\t${1}\n}${2}"
+
+  'React: componentWillUpdate(np, ns) { ... }':
+    prefix: 'cwu'
+    body: 'componentWillUpdate(${1}) {\n\t${2}\n}${3}'
+
+  "React: getInitialState() { return {...} } ":
+    prefix: "gis"
+    body: "getInitialState() {\n\treturn {\n\t\t${1}: ${2}\n\t};\n},"
+
+  'React: propTypes { ... }':
+    prefix: 'pt'
+    body: 'propTypes: {\n\t${1}: PropTypes.${2:string}\n},'
+
+  'React: createClass skeleton':
+    prefix: 'rc'
+    body: 'const ${1: Component} = React.createClass({\n\n\trender() {\n\t\treturn (\n\t\t\t${2:<div />}\n\t\t);\n\t}\n\n});'
+
+  'React: render() { return ... }':
+    prefix: 'rr'
+    body: 'render() {\n\treturn (\n\t\t${1:<div />}\n\t);\n}'
+
+  'React: setState({ ... })':
+    prefix: 'sst'
+    body: 'this.setState({\n\t${1}: ${2}\n});'
+
+  'React: cx( ... )':
+    prefix: 'clx'
+    body: 'cx($1)'
+
+  #############################################################################
+  # JS
+
+  'JS: Object function definition () {}':
+    prefix: 'ofn'
+    body: '${1:func}(${2:args}) {\n\t$3\n}'
+
+  'Oz: h.pure(....)':
+    prefix: 'hpr'
+    body: 'h.pure(({$1}) => {\n\t$2\n})'

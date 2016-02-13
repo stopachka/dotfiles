@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+set -o vi
+
+# basics
+export EDITOR='vim'
+export TERM='xterm-256color'
+export LANG='en_US.UTF-8'
+export HISTSIZE=10000
+export SAVEHIST=10000
+export HISTFILE="$HOME/.histfile"
+
+# shell specific settings
+if [ ! -z $BASH_VERSION ]; then
+  shopt -s histappend
+  export PS1='\n\[\033[0;35m\]\u@\h\[\033[00m\]:\w \nλ '
+fi

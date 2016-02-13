@@ -1,0 +1,6 @@
+--ignore-dir=cache
+--ignore-dir=logs
+--ignore-dir=tmp
+--type-add=cljs=.cljs
+--type-add=edn=.edn
+--smart-case

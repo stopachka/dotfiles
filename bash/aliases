@@ -3,7 +3,7 @@
 # general
 alias ls='ls -p -G'
 alias ll='ls -l -h'
-alias dotfiles="vim $HOME/dotfiles"
+alias dotfiles="atom $HOME/dotfiles"
 
 # git
 alias g='git status'

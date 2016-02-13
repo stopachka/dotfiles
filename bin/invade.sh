@@ -35,6 +35,10 @@ sym tmux/tmux.conf .tmux.conf
 
 touch $DOTFILES/bash/local
 
+# Atom
+sym atom/keymap.cson .atom/keymap.cson
+sym atom/snippets.cson .atom/snippets.cson
+
 # IntelliJ Idea
 sym idea/idea.vmoptions  Library/Preferences/IdeaIC15/idea.vmoptions
 sym idea/idea.properties Library/Preferences/IdeaIC15/idea.properties

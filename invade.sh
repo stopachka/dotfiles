@@ -27,10 +27,11 @@ fi
 mkdir -p "$PREFIX"
 mkdir -p "$BACKUPS/vim_backups"
 
-sym bashrc         .bashrc
 sym ackrc          .ackrc
-sym zshrc          .zshrc
+sym bashrc         .bashrc
+sym gitconfig      .gitconfig
 sym tmux.conf      .tmux.conf
+sym zshrc          .zshrc
 
 touch $DOTFILES/bash/local
 

@@ -23,4 +23,7 @@ alias glo='git log'
 alias gl='git pull'
 alias gp='git push'
 alias lg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%ad>%Creset' --abbrev-commit --date=short"
+function gpm() {
+  ga -A && gc -m $1 && gp
+}
 alias ghu="git push heroku master"

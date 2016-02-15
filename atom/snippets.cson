@@ -57,7 +57,9 @@
   'JS: Object function definition () {}':
     prefix: 'ofn'
     body: '${1:func}(${2:args}) {\n\t$3\n}'
-
+  'JS: Pragma':
+    prefix: 'pgm'
+    body: '// ------------------------------------------------------------\n// ${1: Pragma}'
   'Oz: h.pure(....)':
     prefix: 'hpr'
     body: 'h.pure(({$1}) => {\n\t$2\n})'

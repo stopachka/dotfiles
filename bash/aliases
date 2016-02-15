@@ -4,6 +4,7 @@
 alias l='ls -lahG'
 alias dotfiles="atom $HOME/dotfiles"
 alias psimple="python -m SimpleHTTPServer"
+alias hu="heroku"
 
 # git
 alias g='git status'

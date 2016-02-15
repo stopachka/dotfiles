@@ -30,8 +30,7 @@ mkdir -p "$BACKUPS/vim_backups"
 sym bashrc         .bashrc
 sym ackrc          .ackrc
 sym zshrc          .zshrc
-sym tmux           .tmux
-sym tmux/tmux.conf .tmux.conf
+sym tmux.conf      .tmux.conf
 
 touch $DOTFILES/bash/local
 

@@ -31,9 +31,7 @@ PROMPT='\
 %F{248}λ%f '
 
 # ls after current directory is changed
-
 chpwd() { ls }
-mcd() { mkdir -p "$1" && cd "$1"; }
 
 # bindings
 bindkey '^R' 'history-incremental-search-backward'

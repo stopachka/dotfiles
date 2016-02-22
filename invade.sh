@@ -38,6 +38,7 @@ touch $DOTFILES/bash/local
 # Atom
 sym atom/keymap.cson .atom/keymap.cson
 sym atom/snippets.cson .atom/snippets.cson
+sym atom/styles.less .atom/styles.less
 
 # IntelliJ Idea
 sym idea/idea.vmoptions  Library/Preferences/IdeaIC15/idea.vmoptions

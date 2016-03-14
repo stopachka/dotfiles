@@ -31,7 +31,6 @@ You can paste this into Omnifocus to build a quick project
 - Install Atom
 - Atom: set default theme to solarized light
 - Install intelliJ
-- IntelliJ: Get [Solarized Colors](https://github.com/jkaving/intellij-colors-solarized)
 - Install Cursive
 - Install Iterm
 - Iterm: Install [Solarized Light](https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized)

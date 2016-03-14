@@ -40,3 +40,4 @@ You can paste this into Omnifocus to build a quick project
 - Install brew cask
 - Install npm
 - Install nvm
+- Install lein

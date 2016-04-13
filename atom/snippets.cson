@@ -35,9 +35,13 @@
     prefix: 'pt'
     body: 'propTypes: {\n\t${1}: PropTypes.${2:string}\n},'
 
+  'React: class skeleton':
+    prefix: 'rcl'
+    body: 'class ${1:Component} extends React.Component {\n\trender() {\n\t\treturn (\n\t\t\t${2:<div></div>}\n\t\t);\n\t}\n}'
+
   'React: createClass skeleton':
     prefix: 'rc'
-    body: 'const ${1: Component} = React.createClass({\n\n\trender() {\n\t\treturn (\n\t\t\t${2:<div />}\n\t\t);\n\t}\n\n});'
+    body: 'const ${1:Component} = React.createClass({\n\n\trender() {\n\t\treturn (\n\t\t\t${2:<div></div>}\n\t\t);\n\t}\n\n});'
 
   'React: render() { return ... }':
     prefix: 'rr'
@@ -50,7 +54,9 @@
   'React: cx( ... )':
     prefix: 'clx'
     body: 'cx($1)'
-
+  'React: pure component':
+    prefix: 'rp'
+    body: 'const ${1:Comp} = ({$2}) => {\n\t$3\n}'
   #############################################################################
   # JS
 
@@ -62,4 +68,4 @@
     body: '// ------------------------------------------------------------\n// ${1: Pragma}'
   'Oz: h.pure(....)':
     prefix: 'hpr'
-    body: 'h.pure(({$1}) => {\n\t$2\n})'
+    body: 'const ${1:Comp} = h.pure(({$2}) => {\n\t$3\n})'

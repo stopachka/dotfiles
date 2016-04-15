@@ -32,6 +32,7 @@ sym bashrc         .bashrc
 sym gitconfig      .gitconfig
 sym tmux.conf      .tmux.conf
 sym zshrc          .zshrc
+sym idea/ideavimrc .ideavimrc
 
 touch $DOTFILES/bash/local
 

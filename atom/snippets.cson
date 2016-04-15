@@ -63,9 +63,23 @@
   'JS: Object function definition () {}':
     prefix: 'ofn'
     body: '${1:func}(${2:args}) {\n\t$3\n}'
-  'JS: Pragma':
-    prefix: 'pgm'
-    body: '// ------------------------------------------------------------\n// ${1: Pragma}'
   'Oz: h.pure(....)':
     prefix: 'hpr'
     body: 'const ${1:Comp} = h.pure(({$2}) => {\n\t$3\n})'
+
+  'JS: Pragma':
+    prefix: 'pgm'
+    body: '// ------------------------------------------------------------\n// ${1: Pragma}'
+
+'.source.coffee':
+  'Coffee: Pragma':
+    'prefix': 'pgm'
+    'body': '# ------------------------------------------------------------\n# ${1: Pragma}'
+'.source.ruby':
+  'Ruby: pragma':
+    'prefix': 'pgm'
+    'body': '# ------------------------------------------------------------\n# ${1: Pragma}'
+'.source.css.scss':
+  'CSS: pragma':
+    'prefix': 'pgm'
+    'body': '// ------------------------------------------------------------\n// ${1: Pragma}'

@@ -1,2 +1,4 @@
 '.platform-darwin atom-workspace':
   'cmd-shift-t': 'nuclide-file-tree:toggle'
+'atom-text-editor.vim-mode:not(.normal-mode)':
+  'j k': 'vim-mode:activate-normal-mode'

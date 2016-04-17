@@ -1,7 +1,7 @@
 '.source.js':
-
-  #############################################################################
-  # React
+  'Oz: h.pure(....)':
+    prefix: 'hpr'
+    body: 'const ${1:Comp} = h.pure(({$2}) => {\n\t$3\n})'
 
   'React: componentDidMount() { ... }':
     prefix: 'cdm'
@@ -54,19 +54,15 @@
   'React: cx( ... )':
     prefix: 'clx'
     body: 'cx($1)'
+  
   'React: pure component':
     prefix: 'rp'
     body: 'const ${1:Comp} = ({$2}) => {\n\t$3\n}'
-  #############################################################################
-  # JS
 
   'JS: Object function definition () {}':
     prefix: 'ofn'
     body: '${1:func}(${2:args}) {\n\t$3\n}'
-  'Oz: h.pure(....)':
-    prefix: 'hpr'
-    body: 'const ${1:Comp} = h.pure(({$2}) => {\n\t$3\n})'
-
+    
   'JS: Pragma':
     prefix: 'pgm'
     body: '// ------------------------------------------------------------\n// ${1: Pragma}'

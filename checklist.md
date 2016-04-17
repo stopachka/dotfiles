@@ -29,14 +29,16 @@ You can paste this into Omnifocus to build a quick project
 - Install f.lux
 - Install Sketch
 - Install Atom
-- Atom: set default theme to solarized light
+- Atom: set default theme to Solarized Dark
+- Atom: install vim-mode
+- Atom: install easy-motion
 - Install intelliJ
 - Install Cursive
 - Install Iterm
-- Iterm: Install [Solarized Light](https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized)
+- Iterm: Install [Solarized Dark](https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized)
 - run `./dotfiles/invade.sh`
 - Install brew
 - Install brew cask
-- Install npm
+- Install npms
 - Install nvm
 - Install lein

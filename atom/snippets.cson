@@ -71,10 +71,12 @@
   'Coffee: Pragma':
     'prefix': 'pgm'
     'body': '# ------------------------------------------------------------\n# ${1: Pragma}'
+    
 '.source.ruby':
   'Ruby: pragma':
     'prefix': 'pgm'
     'body': '# ------------------------------------------------------------\n# ${1: Pragma}'
+    
 '.source.css.scss':
   'CSS: pragma':
     'prefix': 'pgm'

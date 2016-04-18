@@ -37,6 +37,7 @@ You can paste this into Omnifocus to build a quick project
 - Install Iterm
 - Iterm: Install [Solarized Dark](https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized)
 - run `./dotfiles/invade.sh`
+- git clone dashboard
 - Install brew
 - Install brew cask
 - Install npms

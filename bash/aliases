@@ -5,6 +5,8 @@ alias l='ls -lahG'
 alias dotfiles="atom $HOME/dotfiles"
 alias psimple="python -m SimpleHTTPServer"
 alias hu="heroku"
+alias cddash="cd ~/Projects/dashboard"
+alias dash="cd ~/Projects/dashboard && atom ."
 
 # git
 alias g='git status'

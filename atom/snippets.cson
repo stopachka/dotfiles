@@ -54,7 +54,7 @@
   'React: cx( ... )':
     prefix: 'clx'
     body: 'cx($1)'
-  
+
   'React: pure component':
     prefix: 'rp'
     body: 'const ${1:Comp} = ({$2}) => {\n\t$3\n}'
@@ -62,7 +62,7 @@
   'JS: Object function definition () {}':
     prefix: 'ofn'
     body: '${1:func}(${2:args}) {\n\t$3\n}'
-    
+
   'JS: Pragma':
     prefix: 'pgm'
     body: '// ------------------------------------------------------------\n// ${1: Pragma}'
@@ -71,13 +71,62 @@
   'Coffee: Pragma':
     'prefix': 'pgm'
     'body': '# ------------------------------------------------------------\n# ${1: Pragma}'
-    
+
 '.source.ruby':
   'Ruby: pragma':
     'prefix': 'pgm'
     'body': '# ------------------------------------------------------------\n# ${1: Pragma}'
-    
+
 '.source.css.scss':
   'CSS: pragma':
     'prefix': 'pgm'
     'body': '// ------------------------------------------------------------\n// ${1: Pragma}'
+
+'.source.gfm':
+  'Routines: daily':
+    'prefix': 'dl'
+    'body': """
+      ${1:Date:}
+
+      **Did you abide by intermittent fasting?** YN
+      ${2}
+      **Did you wake up at 6:30AM?** YN
+      ${3}
+      **How did the day go?**
+      *(Family, Wit, Health, Relationships)*
+      ${4}
+    """
+  'Routines: weekly':
+    'prefix': 'wl'
+    'body': """
+      ${1:Date:}
+
+      **Family**
+
+      *did you speak with Mamiko, Dediko, Eliza, Nino?*
+      *are they happy? do you know what they are thinking?*
+
+      ${2}
+
+      **Wit**
+
+      *how well did you lead?*
+      *where you proactive, positive, execution oriented?*
+      *was impact high level, or table stakes?*
+
+      ${3}
+
+      **Health**
+
+      *Did you work out 3 times?*
+      *Did you go to the sauna?*
+
+      ${4}
+
+      **Relationships**
+
+      *Have you met with at least two friends?*
+
+      ${5}
+
+    """

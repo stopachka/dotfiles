@@ -6,7 +6,9 @@ alias dotfiles="atom $HOME/dotfiles"
 alias psimple="python -m SimpleHTTPServer"
 alias hu="heroku"
 alias cddash="cd ~/Projects/dashboard"
-alias dash="cd ~/Projects/dashboard && atom ."
+alias dash="cddash && atom ."
+alias routines="cddash && atom routines.md"
+alias atomconf="atom ~/.atom"
 
 # git
 alias g='git status'

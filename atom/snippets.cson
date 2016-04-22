@@ -83,6 +83,31 @@
     'body': '// ------------------------------------------------------------\n// ${1: Pragma}'
 
 '.source.gfm':
+  'Spec: Rich Hickey Style':
+    'prefix': 'rhspec'
+    'body': """
+      # ${1: Title}
+
+      ## The problem
+
+      - ${1}
+
+      ## What we know
+
+      - ${2}
+
+      ## What we don't know
+
+      - ${3}
+
+      ## Related Problems
+
+      - ${4}
+
+      ## Requirements
+
+      - ${5}    
+    """
   'Routines: daily':
     'prefix': 'dl'
     'body': """

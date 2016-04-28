@@ -106,24 +106,33 @@
 
       ## Requirements
 
-      - ${5}    
+      - ${5}
     """
   'Routines: daily':
     'prefix': 'dl'
     'body': """
+      ---
+
       ${1:Date:}
 
-      **Did you abide by intermittent fasting?** YN
-      ${2}
-      **Did you wake up at 6:30AM?** YN
+      **Did you abide by intermittent fasting?** Y${2}N
       ${3}
+
+      **Did you wake up at 6:50AM?** Y${4}N
+      ${5}
+
+      **Did you do the pimsleur course?** Y${6}N
+      ${7}
+
       **How did the day go?**
       *(Family, Wit, Health, Relationships)*
-      ${4}
+      ${8}
     """
   'Routines: weekly':
     'prefix': 'wl'
     'body': """
+      ---
+
       ${1:Date:}
 
       **Family**
@@ -141,10 +150,11 @@
 
       ${3}
 
-      **Health**
+      **Health / Habits**
 
       *Did you work out 3 times?*
       *Did you go to the sauna?*
+      *Did you wake up on time, did you do pimsleur?*
 
       ${4}
 

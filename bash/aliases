@@ -4,11 +4,21 @@
 alias l='ls -lahG'
 alias dotfiles="atom $HOME/dotfiles"
 alias psimple="python -m SimpleHTTPServer"
-alias hu="heroku"
+alias hru="heroku"
 alias cddash="cd ~/Projects/dashboard"
 alias dash="cddash && atom ."
 alias routines="cddash && atom routines.md"
 alias atomconf="atom ~/.atom"
+
+# mercurial
+alias hc='hg commit'
+alias ha='hg amend'
+alias hu='hg update'
+alias ad='arc diff'
+
+# arc
+alias adr='arc diff --reviewers'
+alias adm='arc diff -m'
 
 # git
 alias g='git status'

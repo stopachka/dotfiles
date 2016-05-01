@@ -115,18 +115,15 @@
 
       ${1:Date:}
 
-      **Did you abide by intermittent fasting?** Y${2}N
+      **Did you abide by intermittent fasting?** ${2:Y/N}
       ${3}
 
-      **Did you wake up at 6:50AM?** Y${4}N
+      **Did you do the pimsleur course?** ${4:Y/N}
       ${5}
-
-      **Did you do the pimsleur course?** Y${6}N
-      ${7}
 
       **How did the day go?**
       *(Family, Wit, Health, Relationships)*
-      ${8}
+      ${6}
     """
   'Routines: weekly':
     'prefix': 'wl'

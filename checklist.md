@@ -52,3 +52,4 @@ You can paste this into Omnifocus to build a quick project
   - Pass through mode - Fn + Esc
   - When you type Control_L only, send escape
   - Change escape key - disable escape
+- Install KeyboardMaestro, alongside macros

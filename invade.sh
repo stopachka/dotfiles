@@ -45,4 +45,7 @@ sym atom/styles.less .atom/styles.less
 sym idea/idea.vmoptions  Library/Preferences/IdeaIC15/idea.vmoptions
 sym idea/idea.properties Library/Preferences/IdeaIC15/idea.properties
 
+# karabiner
+sym karabiner.xml Library/Application\ Support/Karabiner/private.xml
+
 echo "> Invasion successful!"

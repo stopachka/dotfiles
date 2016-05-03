@@ -43,3 +43,10 @@ You can paste this into Omnifocus to build a quick project
 - Install npms
 - Install nvm
 - Install lein
+- Install Karabiner
+- Karabiner: Enable
+  - Shifts to Parenthesis
+  - [Training] User correct shift keys
+  - Pass through mode - Fn + Esc
+  - When you type Control_L only, send escape
+  - Change escape key - disable escape

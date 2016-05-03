@@ -43,6 +43,8 @@ You can paste this into Omnifocus to build a quick project
 - Install npms
 - Install nvm
 - Install lein
+- Install Seil
+- Remap Control_L to keycode 80
 - Install Karabiner
 - Karabiner: Enable
   - Shifts to Parenthesis

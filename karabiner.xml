@@ -25,6 +25,20 @@
     <autogen>--KeyToKey-- KeyCode::SPACE, ModifierFlag::SHIFT_R, KeyCode::KEY_0, ModifierFlag::SHIFT_L, KeyCode::SPACE</autogen>
   </item>
   <item>
+      <name>Remap Left Control to Hyper</name>
+      <appendix>OS X doesn't have a Hyper. This maps Left Control to Control + Shift + Option + Command.</appendix>
+
+      <identifier>space_cadet.left_control_to_hyper</identifier>
+
+      <autogen>
+          --KeyToKey--
+          KeyCode::F19,
+
+          KeyCode::COMMAND_L,
+          ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L
+      </autogen>
+  </item>
+  <item>
       <name>[Training] Use the correct shift keys.</name>
       <identifier>private.correct_shift_keys</identifier>
 

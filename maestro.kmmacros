@@ -30,7 +30,7 @@
 					</dict>
 				</array>
 				<key>CreationDate</key>
-				<real>0.0</real>
+				<real>483994477.57811099</real>
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
@@ -89,7 +89,7 @@
 					</dict>
 				</array>
 				<key>CreationDate</key>
-				<real>0.0</real>
+				<real>483994477.57811099</real>
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
@@ -148,7 +148,7 @@
 					</dict>
 				</array>
 				<key>CreationDate</key>
-				<real>0.0</real>
+				<real>483994477.57811099</real>
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
@@ -207,7 +207,7 @@
 					</dict>
 				</array>
 				<key>CreationDate</key>
-				<real>0.0</real>
+				<real>483994477.57811099</real>
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
@@ -266,7 +266,7 @@
 					</dict>
 				</array>
 				<key>CreationDate</key>
-				<real>0.0</real>
+				<real>483994477.57811099</real>
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
@@ -317,6 +317,65 @@
 						<key>IsDefaultApplication</key>
 						<true/>
 						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Open1File</string>
+						<key>Path</key>
+						<string>/Applications/Sketch.app</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>0.0</real>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>484172638.29132599</real>
+				<key>Name</key>
+				<string>openSketch</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>35</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6912</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>52125AC6-8521-45C8-A00F-DD4933B5A6E2</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>E95BF3E2-E578-4918-996A-CC86894A4A6C</string>
+		<key>UID</key>
+		<string>26786406-935F-4C7F-8488-422C87E9526D</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>483946955.42133301</real>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Application</key>
+						<dict/>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDefaultApplication</key>
+						<true/>
+						<key>IsDisclosed</key>
 						<true/>
 						<key>MacroActionType</key>
 						<string>Open1File</string>
@@ -325,7 +384,7 @@
 					</dict>
 				</array>
 				<key>CreationDate</key>
-				<real>0.0</real>
+				<real>483994477.57811099</real>
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
@@ -347,6 +406,65 @@
 				</array>
 				<key>UID</key>
 				<string>B0EB9F1B-CAC2-466F-A7FB-0959991DBD5D</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>E95BF3E2-E578-4918-996A-CC86894A4A6C</string>
+		<key>UID</key>
+		<string>26786406-935F-4C7F-8488-422C87E9526D</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>483946955.42133301</real>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Paste</key>
+						<true/>
+						<key>Text</key>
+						<string>%ShortDate%</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>0.0</real>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>484172540.52277899</real>
+				<key>Name</key>
+				<string>pasteDate</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>31</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6912</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>E80D510F-3240-4ADB-8283-88F52FF19577</string>
 			</dict>
 		</array>
 		<key>Name</key>

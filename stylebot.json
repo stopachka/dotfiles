@@ -1,0 +1,20 @@
+{
+  "mint.com": {
+    "_enabled": true,
+    "_rules": {
+      ".HypothesisTestingView": {
+        "display": "none"
+      },
+      ".AdviceView": {
+        "display": "none"
+      },
+      ".w2sView": {
+        "display": "none"
+      }
+    }
+  },
+  "*": {
+    "_enabled": true,
+    "_rules": {}
+  }
+}

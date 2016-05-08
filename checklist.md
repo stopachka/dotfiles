@@ -53,3 +53,4 @@ You can paste this into Omnifocus to build a quick project
   - When you type Control_L only, send escape
   - Change escape key - disable escape
 - Install KeyboardMaestro, alongside macros
+- Install Stylebot for chrome, and paste in the styles from `stylebot.json`

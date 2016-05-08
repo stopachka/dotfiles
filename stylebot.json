@@ -2,17 +2,17 @@
   "mint.com": {
     "_enabled": true,
     "_rules": {
-      ".HypothesisTestingView": {
+      ".HypothesisTestingView, .AdviceView, .w2sView, .CreditScoreView, .MainFooterView, #logo-navbar": {
         "display": "none"
       },
-      ".AdviceView": {
-        "display": "none"
+      "#tabs-navbar": {
+        "left": "0"
       },
-      ".w2sView": {
-        "display": "none"
+      "nav.mintNav .headerlinks .navbar-right ul": {
+        "float": "left"
       },
-      ".CreditScoreView": {
-        "display": "none"
+      "nav.mintNav .navbar-header": {
+        "padding-bottom": "13px"
       }
     }
   },

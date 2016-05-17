@@ -38,7 +38,7 @@ You can paste this into Omnifocus to build a quick project
 - git clone dashboard
 - Install brew
 - Install brew cask
-- Install npms
+- Install npm
 - Install nvm
 - Install lein
 - Install Seil

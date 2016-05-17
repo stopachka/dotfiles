@@ -115,7 +115,7 @@
 
       ${1:Date:}
 
-      **Did you abide by intermittent fasting?** ${2:Y/N}
+      **Did you follow the eating ritual?** ${2:Y/N}
       ${3}
 
       **Did you do the pimsleur course?** ${4:Y/N}

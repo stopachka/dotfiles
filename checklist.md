@@ -3,6 +3,9 @@
 You can paste this into Omnifocus to build a quick project
 
 - Display Preferences Pane: More Space
+- General: Apperance -> Graphite
+- General: Automatically Hide and Show the Menu Bar -> True
+- General: Highlight Color -> Graphite
 - Keyboard: Key Repeat -> Fast,
 - Keyboard: Delay Until Repeat -> Short
 - Keyboard: Modifier Keys: Caps Lock -> Ctrl

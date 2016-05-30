@@ -45,10 +45,8 @@ You can paste this into Omnifocus to build a quick project
 - Remap Control_L to keycode 80
 - Install Karabiner
 - Karabiner: Enable
-  - Shifts to Parenthesis
-  - [Training] User correct shift keys
   - Pass through mode - Fn + Esc
   - When you type Control_L only, send escape
   - Change escape key - disable escape
+  - Remap Left Control to Hyper
 - Install KeyboardMaestro, alongside macros
-- Install Stylebot for chrome, and paste in the styles from `stylebot.json`

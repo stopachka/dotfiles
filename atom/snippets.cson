@@ -115,7 +115,7 @@
 
       ${1:Date:}
 
-      **Did you follow the eating ritual?** ${2:Y/N}
+      **Did you wake up at 6:30AM?** ${2:Y/N}
       ${3}
 
       **Did you do the pimsleur course?** ${4:Y/N}
@@ -151,7 +151,7 @@
 
       *Did you work out 3 times?*
       *Did you go to the sauna?*
-      *Did you wake up on time, did you do pimsleur?*
+      *Did you wake up at 6:30AM, did you do pimsleur?*
 
       ${4}
 

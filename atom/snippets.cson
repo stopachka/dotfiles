@@ -161,4 +161,20 @@
 
       ${5}
 
+      **Checklist**
+      ${6}
+      [] Well Shaven
+      [] Room is clean
+      [] Dressing well, with clean clothes
+      [] Spoken with Mamiko
+      [] Spoken with Dediko
+      [] Spoken with Nino
+      [] Spoken with Eliza
+      [] Worked at a consistent time
+      [] Worked out 3x / week
+      [] Omnifocus is reviewed
+
+      **Plan for next week**
+
+      ${7}
     """

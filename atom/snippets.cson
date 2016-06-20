@@ -165,7 +165,10 @@
       ${6}
       [] Well Shaven
       [] Room is clean
-      [] Dressing well, with clean clothes
+      [] Nails taken care of
+      [] Well Groomed
+      [] clean clothes ready
+      [] Gym clothes in bag
       [] Spoken with Mamiko
       [] Spoken with Dediko
       [] Spoken with Nino
@@ -174,7 +177,16 @@
       [] Worked out 3x / week
       [] Omnifocus is reviewed
 
-      **Plan for next week**
-
+      **Metrics**
       ${7}
+      French Lesson:
+      Weight:
+      Squat:
+      OH Press:
+      Deadlift:
+      Bench:
+      Row:
+
+      **Plan for next week**
+      ${8}
     """

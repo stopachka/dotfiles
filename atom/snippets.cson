@@ -113,80 +113,80 @@
     'body': """
       ---
 
-      ${1:Date:}
+      ### ${1:Date:}
 
-      **Did you wake up at 6:30AM?** ${2:Y/N}
-      ${3}
+      - Wake up at 7AM?   ${2:Y/N}
+      - Pimsleur course?  ${3:Y/N}
 
-      **Did you do the pimsleur course?** ${4:Y/N}
-      ${5}
+      #### Day Summary
 
-      **How did the day go?**
       *(Family, Wit, Health, Relationships)*
-      ${6}
+
+      ${4}
+
     """
   'Routines: weekly':
     'prefix': 'wl'
     'body': """
       ---
 
-      ${1:Date:}
+      ### ${1:Date:}
 
-      **Family**
+      #### Family
 
-      *did you speak with Mamiko, Dediko, Eliza, Nino?*
-      *are they happy? do you know what they are thinking?*
-
-      ${2}
-
-      **Wit**
-
-      *how well did you lead?*
-      *where you proactive, positive, execution oriented?*
-      *was impact high level, or table stakes?*
-
-      ${3}
-
-      **Health / Habits**
-
-      *Did you work out 3 times?*
-      *Did you go to the sauna?*
-      *Did you wake up at 6:30AM, did you do pimsleur?*
+      - Do you know what they are up to and thinking?           ${3:Y/N}
 
       ${4}
 
-      **Relationships**
+      ### Wit
 
-      *Have you met with at least two friends?*
+      - Where you a good leader and mentor?                     ${5:Y/N}
+      - Where you proactive, positive, execution oriented?      ${6:Y/N}
+      - Was impact high level, or table stakes?                 ${7:Y/N}
 
-      ${5}
-
-      **Checklist**
-      ${6}
-      [] Well Shaven
-      [] Room is clean
-      [] Nails taken care of
-      [] Well Groomed
-      [] clean clothes ready
-      [] Gym clothes in bag
-      [] Spoken with Mamiko
-      [] Spoken with Dediko
-      [] Spoken with Nino
-      [] Spoken with Eliza
-      [] Worked at a consistent time
-      [] Worked out 3x / week
-      [] Omnifocus is reviewed
-
-      **Metrics**
-      ${7}
-      French Lesson:
-      Weight:
-      Squat:
-      OH Press:
-      Deadlift:
-      Bench:
-      Row:
-
-      **Plan for next week**
       ${8}
+
+      **Health / Habits**
+
+      - Did you work out 3 times?                               ${9:Y/N}
+      - Did you wake up at 7AM most days?                       ${10:Y/N}
+      - Did you do pimsleur?                                    ${11:Y/N}
+
+      ${13}
+
+      ### Relationships
+
+      - Have you met with at least two friends?                 ${12:Y/N}
+
+      ${14}
+
+      ### State Checklist
+
+      - Well Shaven                                             ${13:Y/N}
+      - Room is clean                                           ${14:Y/N}
+      - Nails taken care of                                     ${15:Y/N}
+      - Well groomed                                            ${16:Y/N}
+      - clean clothes ready                                     ${17:Y/N}
+      - Gym clothes in bag                                      ${18:Y/N}
+      - Spoken with Mamiko                                      ${19:Y/N}
+      - Spoken with Dediko                                      ${20:Y/N}
+      - Spoken with Nino                                        ${21:Y/N}
+      - Spoken with Eliza                                       ${22:Y/N}
+      - Worked at a consistent time                             ${23:Y/N}
+      - Omnifocus is reviewed                                   ${24:Y/N}
+      - Updated Grand Metrics                                   ${25:Y/N}
+
+      ### Metrics
+
+      French Lesson:  ${26:-}
+      Weight:         ${27:-}
+      Squat:          ${28:-}
+      OH Press:       ${29:-}
+      Deadlift:       ${30:-}
+      Bench:          ${31:-}
+      Row:            ${32:-}
+
+      ### Plan for next week
+
+      ${33:Y/N}
     """

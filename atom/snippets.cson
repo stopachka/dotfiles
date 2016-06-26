@@ -111,8 +111,6 @@
   'Routines: daily':
     'prefix': 'dl'
     'body': """
-      ---
-
       ### ${1:Date:}
 
       - Wake up at 7AM?   ${2:Y/N}
@@ -124,12 +122,12 @@
 
       ${4}
 
+      ---
+
     """
   'Routines: weekly':
     'prefix': 'wl'
     'body': """
-      ---
-
       ### ${1:Date:}
 
       #### Family
@@ -146,7 +144,7 @@
 
       ${8}
 
-      **Health / Habits**
+      #### Health / Habits
 
       - Did you work out 3 times?                               ${9:Y/N}
       - Did you wake up at 7AM most days?                       ${10:Y/N}
@@ -189,4 +187,6 @@
       ### Plan for next week
 
       ${33:Y/N}
+
+      ---
     """

@@ -10,6 +10,10 @@ alias dash="cddash && atom ."
 alias routines="cddash && atom routines.md"
 alias atomconf="atom ~/.atom"
 
+function wt() {
+  curl "wttr.in/${1:-sf}"
+}
+
 # mercurial
 alias hc='hg commit'
 alias ha='hg amend'

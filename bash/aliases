@@ -11,7 +11,7 @@ alias routines="cddash && atom routines.md"
 alias atomconf="atom ~/.atom"
 
 function wt() {
-  curl "wttr.in/${1:-sf}"
+  curl "wttr.in/${1:-sf}?m={$2:-SI}"
 }
 
 # mercurial

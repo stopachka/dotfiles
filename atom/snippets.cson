@@ -115,12 +115,13 @@
 
       - Wake up at 7AM?   ${2:Y/N}
       - Pimsleur course?  ${3:Y/N}
+      - 5 Ideas / day?    ${4:Y/N}
 
       #### Day Summary
 
       *(Family, Wit, Health, Relationships, Wackiness Level)*
 
-      ${4}
+      ${5}
 
       ---
 
@@ -189,4 +190,5 @@
       ${33:Y/N}
 
       ---
+      
     """

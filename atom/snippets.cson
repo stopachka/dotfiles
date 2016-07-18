@@ -133,62 +133,63 @@
 
       #### Family
 
-      - Do you know what they are up to and thinking?           ${3:Y/N}
+      - Do you know what they are up to and thinking?           Y/N
 
-      ${4}
+      ${2}
 
       ### Wit
 
-      - Where you a good leader and mentor?                     ${5:Y/N}
-      - Where you proactive, positive, execution oriented?      ${6:Y/N}
-      - Was impact high level, or table stakes?                 ${7:Y/N}
+      - Where you a good leader and mentor?                     Y/N
+      - Where you proactive, positive, execution oriented?      Y/N
+      - Was impact high level, or table stakes?                 Y/N
 
-      ${8}
+      ${3}
 
       #### Health / Habits
 
-      - Did you work out 3 times?                               ${9:Y/N}
-      - Did you wake up at 7AM most days?                       ${10:Y/N}
-      - Did you do pimsleur?                                    ${11:Y/N}
+      - Did you work out 3 times?                               Y/N
+      - Did you wake up at 7AM most days?                       Y/N
+      - Did you do pimsleur?                                    Y/N
 
-      ${13}
+      ${4}
 
       ### Relationships
 
-      - Have you met with at least two friends?                 ${12:Y/N}
+      - Have you met with at least two friends?                 Y/N
 
-      ${14}
+      ${5}
 
       ### State Checklist
 
-      - Well Shaven                                             ${13:Y/N}
-      - Room is clean                                           ${14:Y/N}
-      - Nails taken care of                                     ${15:Y/N}
-      - Well groomed                                            ${16:Y/N}
-      - clean clothes ready                                     ${17:Y/N}
-      - Gym clothes in bag                                      ${18:Y/N}
-      - Spoken with Mamiko                                      ${19:Y/N}
-      - Spoken with Dediko                                      ${20:Y/N}
-      - Spoken with Nino                                        ${21:Y/N}
-      - Spoken with Eliza                                       ${22:Y/N}
-      - Worked at a consistent time                             ${23:Y/N}
-      - Omnifocus is reviewed                                   ${24:Y/N}
-      - Updated Grand Metrics                                   ${25:Y/N}
+      - Well Shaven                                             Y/N
+      - Room is clean                                           Y/N
+      - Nails taken care of                                     Y/N
+      - Well groomed                                            Y/N
+      - clean clothes ready                                     Y/N
+      - Gym clothes in bag                                      Y/N
+      - Spoken with Mamiko                                      Y/N
+      - Spoken with Dediko                                      Y/N
+      - Spoken with Nino                                        Y/N
+      - Spoken with Eliza                                       Y/N
+      - Worked at a consistent time                             Y/N
+      - Omnifocus is reviewed                                   Y/N
+      -  Executed on 5 ideas / day                              Y/N
+      - Updated Grand Metrics                                   Y/N
 
       ### Metrics
 
-      French Lesson:  ${26:-}
-      Weight:         ${27:-}
-      Squat:          ${28:-}
-      OH Press:       ${29:-}
-      Deadlift:       ${30:-}
-      Bench:          ${31:-}
-      Row:            ${32:-}
+      French Lesson:  -
+      Weight:         -
+      Squat:          -
+      OH Press:       -
+      Deadlift:       -
+      Bench:          -
+      Row:            -
 
       ### Plan for next week
 
-      ${33:Y/N}
+      ${6}
 
       ---
-      
+
     """

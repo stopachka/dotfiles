@@ -114,8 +114,7 @@
       ### ${1:Date:}
 
       - Wake up at 7AM?   ${2:Y/N}
-      - Pimsleur course?  ${3:Y/N}
-      - 5 Ideas / day?    ${4:Y/N}
+      - Duolingo course?  ${3:Y/N}
 
       #### Day Summary
 
@@ -149,7 +148,7 @@
 
       - Did you work out 3 times?                               Y/N
       - Did you wake up at 7AM most days?                       Y/N
-      - Did you do pimsleur?                                    Y/N
+      - Did you do duolingo?                                    Y/N
 
       ${4}
 
@@ -173,7 +172,7 @@
       - Spoken with Eliza                                       Y/N
       - Worked at a consistent time                             Y/N
       - Omnifocus is reviewed                                   Y/N
-      -  Executed on 5 ideas / day                              Y/N
+      - Executed on 5 ideas / day                               Y/N
       - Updated Grand Metrics                                   Y/N
 
       ### Metrics

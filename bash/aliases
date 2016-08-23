@@ -14,6 +14,15 @@ function wt() {
   curl "wttr.in/${1:-sf}?m={$2:-SI}"
 }
 
+function gh-publish() {
+  git checkout -B gh-pages
+  git add -f build
+  git commit -am "Rebuild website"
+  git filter-branch -f --prune-empty --subdirectory-filter build
+  git push -f origin gh-pages
+  git checkout -
+}
+
 # mercurial
 alias hc='hg commit'
 alias ha='hg amend'

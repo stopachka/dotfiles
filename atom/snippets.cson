@@ -122,8 +122,6 @@
 
       ${5}
 
-      ---
-
     """
   'Routines: weekly':
     'prefix': 'wl'
@@ -136,7 +134,7 @@
 
       ${2}
 
-      ### Wit
+      #### Wit
 
       - Where you a good leader and mentor?                     Y/N
       - Where you proactive, positive, execution oriented?      Y/N
@@ -149,16 +147,17 @@
       - Did you work out 3 times?                               Y/N
       - Did you wake up at 7AM most days?                       Y/N
       - Did you do duolingo?                                    Y/N
+      - Are you learning high-upside + fun technical stuff?     Y/N
 
       ${4}
 
-      ### Relationships
+      #### Relationships
 
       - Have you met with at least two friends?                 Y/N
 
       ${5}
 
-      ### State Checklist
+      #### State Checklist
 
       - Well Shaven                                             Y/N
       - Room is clean                                           Y/N
@@ -175,20 +174,18 @@
       - Executed on 5 ideas / day                               Y/N
       - Updated Grand Metrics                                   Y/N
 
-      ### Metrics
+      #### Metrics
 
-      Duolingo WC:    -
-      Weight:         -
-      Squat:          -
-      OH Press:       -
-      Deadlift:       -
-      Bench:          -
-      Row:            -
+      - Duolingo WC:    -
+      - Weight:         -
+      - Squat:          -
+      - OH Press:       -
+      - Deadlift:       -
+      - Bench:          -
+      - Row:            -
 
-      ### Plan for next week
+      #### Plan for next week
 
       ${6}
-
-      ---
 
     """

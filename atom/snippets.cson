@@ -1,8 +1,4 @@
 '.source.js':
-  'Oz: h.pure(....)':
-    prefix: 'hpr'
-    body: 'const ${1:Comp} = h.pure(({$2}) => {\n\t$3\n})'
-
   'React: componentDidMount() { ... }':
     prefix: 'cdm'
     body: 'componentDidMount() {\n\t${1}\n}${2}'
@@ -27,26 +23,11 @@
     prefix: 'cwu'
     body: 'componentWillUpdate(${1}) {\n\t${2}\n}${3}'
 
-  "React: getInitialState() { return {...} } ":
-    prefix: "gis"
-    body: "getInitialState() {\n\treturn {\n\t\t${1}: ${2}\n\t};\n},"
-
-  'React: propTypes { ... }':
-    prefix: 'pt'
-    body: 'propTypes: {\n\t${1}: PropTypes.${2:string}\n},'
-
+  
   'React: class skeleton':
-    prefix: 'rcl'
-    body: 'class ${1:Component} extends React.Component {\n\trender() {\n\t\treturn (\n\t\t\t${2:<div></div>}\n\t\t);\n\t}\n}'
-
-  'React: createClass skeleton':
     prefix: 'rc'
-    body: 'const ${1:Component} = React.createClass({\n\n\trender() {\n\t\treturn (\n\t\t\t${2:<div></div>}\n\t\t);\n\t}\n\n});'
-
-  'React: render() { return ... }':
-    prefix: 'rr'
-    body: 'render() {\n\treturn (\n\t\t${1:<div />}\n\t);\n}'
-
+    body: 'class ${1:Component} extends React.Component {\n\trender() {\n\t\treturn (\n\t\t\t${2:<div></div>}\n\t\t);\n\t}\n}'
+  
   'React: setState({ ... })':
     prefix: 'sst'
     body: 'this.setState({\n\t${1}: ${2}\n});'
@@ -56,12 +37,8 @@
     body: 'cx($1)'
 
   'React: pure component':
-    prefix: 'rp'
+    prefix: 'pc'
     body: 'const ${1:Comp} = ({$2}) => {\n\t$3\n}'
-
-  'JS: Object function definition () {}':
-    prefix: 'ofn'
-    body: '${1:func}(${2:args}) {\n\t$3\n}'
 
   'JS: Pragma':
     prefix: 'pgm'

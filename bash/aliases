@@ -7,7 +7,7 @@ alias psimple="python -m SimpleHTTPServer"
 alias hru="heroku"
 alias cddash="cd ~/Projects/dashboard"
 alias dash="cddash && atom ."
-alias routines="cddash && atom routines.md"
+alias routines="cddash && atom README.md"
 alias atomconf="atom ~/.atom"
 
 function wt() {

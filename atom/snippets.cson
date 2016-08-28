@@ -93,7 +93,7 @@
       | Wake up at 7AM?  | ${2:Y/N} |
       | Duolingo course? | ${3:Y/N} |
 
-      ### Notes:
+      #### Notes:
 
       *(Family, Wit, Health, Relationships, Wackiness Level)*
 
@@ -173,5 +173,7 @@
       #### Plan for next week
 
       ${6}
+
+      -----
 
     """

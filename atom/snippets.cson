@@ -23,11 +23,11 @@
     prefix: 'cwu'
     body: 'componentWillUpdate(${1}) {\n\t${2}\n}${3}'
 
-  
+
   'React: class skeleton':
     prefix: 'rc'
     body: 'class ${1:Component} extends React.Component {\n\trender() {\n\t\treturn (\n\t\t\t${2:<div></div>}\n\t\t);\n\t}\n}'
-  
+
   'React: setState({ ... })':
     prefix: 'sst'
     body: 'this.setState({\n\t${1}: ${2}\n});'
@@ -88,78 +88,86 @@
   'Routines: daily':
     'prefix': 'dl'
     'body': """
-      ### ${1:Date:}
+      | ### ${1:Date:}   |          |
+      |------------------|----------|
+      | Wake up at 7AM?  | ${2:Y/N} |
+      | Duolingo course? | ${3:Y/N} |
 
-      - Wake up at 7AM?   ${2:Y/N}
-      - Duolingo course?  ${3:Y/N}
-
-      #### Day Summary
+      ### Notes:
 
       *(Family, Wit, Health, Relationships, Wackiness Level)*
 
       ${5}
-
     """
   'Routines: weekly':
     'prefix': 'wl'
     'body': """
       ### ${1:Date:}
 
-      #### Family
+      | Family                                               |     |
+      |------------------------------------------------------|-----|
+      | Do you know what they are up to and thinking?        | Y/N |
 
-      - Do you know what they are up to and thinking?           Y/N
+      #### Notes:
 
       ${2}
 
-      #### Wit
+      | Wit                                                  |     |
+      |------------------------------------------------------|-----|
+      | Where you a good leader and mentor?                  | Y/N |
+      | Where you proactive, positive, execution oriented?   | Y/N |
+      | Was impact high level (Y), or table stakes? (N)      | Y/N |
 
-      - Where you a good leader and mentor?                     Y/N
-      - Where you proactive, positive, execution oriented?      Y/N
-      - Was impact high level, or table stakes?                 Y/N
+      #### Notes:
 
       ${3}
 
-      #### Health / Habits
+      | Health & Habits                                      |     |
+      |------------------------------------------------------|-----|
+      | Did you work out 3 times?                            | Y/N |
+      | Did you wake up at 7AM most days?                    | Y/N |
+      | Did you do duolingo?                                 | Y/N |
 
-      - Did you work out 3 times?                               Y/N
-      - Did you wake up at 7AM most days?                       Y/N
-      - Did you do duolingo?                                    Y/N
-      - Are you learning high-upside + fun technical stuff?     Y/N
+      #### Notes:
 
       ${4}
 
-      #### Relationships
+      | Relationships                                        |     |
+      |------------------------------------------------------|-----|
+      | ave you met with at least two friends?               | Y/N |
 
-      - Have you met with at least two friends?                 Y/N
+      #### Notes:
 
       ${5}
 
-      #### State Checklist
+      | State Checklist                                         |     |
+      ----------------------------------------------------------|-----|
+      | Well Shaven                                             | Y/N |
+      | Room is clean                                           | Y/N |
+      | Nails taken care of                                     | Y/N |
+      | Well groomed                                            | Y/N |
+      | clean clothes ready                                     | Y/N |
+      | Gym clothes in bag                                      | Y/N |
+      | Spoken with Mamiko                                      | Y/N |
+      | Spoken with Dediko                                      | Y/N |
+      | Spoken with Nino                                        | Y/N |
+      | Spoken with Eliza                                       | Y/N |
+      | Worked at a consistent time                             | Y/N |
+      | Omnifocus is reviewed                                   | Y/N |
+      | Executed on 5 ideas / day                               | Y/N |
+      | Updated Grand Metrics                                   | Y/N |
 
-      - Well Shaven                                             Y/N
-      - Room is clean                                           Y/N
-      - Nails taken care of                                     Y/N
-      - Well groomed                                            Y/N
-      - clean clothes ready                                     Y/N
-      - Gym clothes in bag                                      Y/N
-      - Spoken with Mamiko                                      Y/N
-      - Spoken with Dediko                                      Y/N
-      - Spoken with Nino                                        Y/N
-      - Spoken with Eliza                                       Y/N
-      - Worked at a consistent time                             Y/N
-      - Omnifocus is reviewed                                   Y/N
-      - Executed on 5 ideas / day                               Y/N
-      - Updated Grand Metrics                                   Y/N
 
-      #### Metrics
+      | Weekly Metrics  |   |
+      |-----------------|---|
+      | Duolingo WC     | - |
+      | Weight          | - |
+      | Squat           | - |
+      | OH Press        | - |
+      | Deadlift        | - |
+      | Bench           | - |
+      | Row             | - |
 
-      - Duolingo WC:    -
-      - Weight:         -
-      - Squat:          -
-      - OH Press:       -
-      - Deadlift:       -
-      - Bench:          -
-      - Row:            -
 
       #### Plan for next week
 

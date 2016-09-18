@@ -89,9 +89,10 @@
     'prefix': 'dl'
     'body': """
       | ${1:Date:} | |
-      |------------------|---|
-      | Wake up at 7AM?  | ${2:Y/N} |
-      | Duolingo course? | ${3:Y/N} |
+      |---------------------------|---|
+      | Wake up at 7AM?           | ${2:Y/N} |
+      | Duolingo course?          | ${3:Y/N} |
+      | 5H continuous work time?  | ${4:Y/N} |
 
       #### Notes:
 

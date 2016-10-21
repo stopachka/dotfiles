@@ -53,3 +53,8 @@ You can paste this into Omnifocus to build a quick project
   - Change escape key - disable escape
   - Remap Left Control to Hyper
 - Install KeyboardMaestro, alongside macros
+- Install Python  
+  - `brew install python`
+  - `pip install ipython`
+  - `pip install virtualenv`
+  - `pip install virtualenvwrapper`

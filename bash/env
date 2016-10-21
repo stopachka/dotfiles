@@ -9,3 +9,17 @@ export LANG='en_US.UTF-8'
 export HISTSIZE=10000
 export SAVEHIST=10000
 export HISTFILE="$HOME/.histfile"
+
+# python
+if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
+  source /usr/local/bin/virtualenvwrapper.sh
+fi
+
+export WORKON_HOME=~/.virtualenvs
+
+### Ensure pip installs to virtualenvs only
+export PIP_VIRTUALENV_BASE=$WORKON_HOME
+export PIP_RESPECT_VIRTUALENV=true
+
+### Cache pip-installed packages to avoid re-downloading
+export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache

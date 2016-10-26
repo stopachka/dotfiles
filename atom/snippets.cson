@@ -1,3 +1,10 @@
+'.source.python':
+  'Python: pragma':
+    'prefix': 'pgm'
+    'body': """
+    # -----------------------------------------------------------------------------
+    # $1
+    """
 '.source.js':
   'React: componentDidMount() { ... }':
     prefix: 'cdm'

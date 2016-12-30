@@ -98,7 +98,6 @@
       | ${1:Date:} | |
       |---------------------------|---|
       | Wake up at 7AM?           | ${2:Y/N} |
-      | Duolingo course?          | ${3:Y/N} |
       | 5H continuous work time?  | ${4:Y/N} |
 
       #### Notes:
@@ -135,7 +134,6 @@
       |------------------------------------------------------|---|
       | Did you work out 3 times?                            | Y/N |
       | Did you wake up at 7AM most days?                    | Y/N |
-      | Did you do duolingo?                                 | Y/N |
 
       #### Notes:
 
@@ -164,18 +162,6 @@
       | Spoken with Eliza                                       | Y/N |
       | Worked at a consistent time                             | Y/N |
       | Omnifocus is reviewed                                   | Y/N |
-      | Updated Grand Metrics                                   | Y/N |
-
-
-      | Weekly Metrics  |   |
-      |-----------------|---|
-      | Duolingo WC     | - |
-      | Squat           | - |
-      | OH Press        | - |
-      | Deadlift        | - |
-      | Bench           | - |
-      | Row             | - |
-
 
       #### Plan for next week
 

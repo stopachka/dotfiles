@@ -32,7 +32,6 @@ sym bashrc         .bashrc
 sym gitconfig      .gitconfig
 sym tmux.conf      .tmux.conf
 sym zshrc          .zshrc
-sym idea/ideavimrc .ideavimrc
 
 touch $DOTFILES/bash/local
 
@@ -41,11 +40,5 @@ sym atom/keymap.cson .atom/keymap.cson
 sym atom/snippets.cson .atom/snippets.cson
 sym atom/styles.less .atom/styles.less
 
-# IntelliJ Idea
-sym idea/idea.vmoptions  Library/Preferences/IdeaIC15/idea.vmoptions
-sym idea/idea.properties Library/Preferences/IdeaIC15/idea.properties
-
-# karabiner
-sym karabiner.xml Library/Application\ Support/Karabiner/private.xml
 
 echo "> Invasion successful!"

@@ -1,2 +1,0 @@
-set ignorecase smartcase
-inoremap jk <esc>

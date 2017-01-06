@@ -8,14 +8,14 @@ You can paste this into Omnifocus to build a quick project
 - General: Highlight Color -> Graphite
 - Keyboard: Key Repeat -> Fast,
 - Keyboard: Delay Until Repeat -> Short
-- Keyboard: Modifier Keys: Caps Lock -> Ctrl
+- Keyboard: Modifier Keys: Caps Lock -> Esc
 - Trackpad: Tap to click -> enable
 - Trackpad: Tracking Speed -> Fast
 - Trackpad: Click -> light
 - Accessibility: Trackpad: Scrolling Speed -> Fast
 - Accessibility: Trackpad: Enable Dragging -> Three finger drag
-- Install Launchbar
-- Launchbar: Don't show Dock icon
+- Install Alfred
+- Alfred: Add License
 - Calendar: Set up icloud, exchange, gmail
 - Install Fantastical
 - Fantastical: Don't show in dock
@@ -32,9 +32,6 @@ You can paste this into Omnifocus to build a quick project
 - Install Atom
 - Atom: set default theme to Solarized Dark
 - Atom: install vim-mode
-- Atom: install easy-motion
-- Install intelliJ
-- Install Cursive
 - Install Iterm
 - Iterm: Install [Solarized Dark](https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized)
 - run `./dotfiles/invade.sh`
@@ -44,15 +41,6 @@ You can paste this into Omnifocus to build a quick project
 - Install npm
 - Install nvm
 - Install lein
-- Install Seil
-- Remap Control_L to keycode 80
-- Install Karabiner
-- Karabiner: Enable
-  - Pass through mode - Fn + Esc
-  - When you type Control_L only, send escape
-  - Change escape key - disable escape
-  - Remap Left Control to Hyper
-- Install KeyboardMaestro, alongside macros
 - Install Python  
   - `brew install python`
   - `pip install ipython`

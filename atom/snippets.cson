@@ -98,13 +98,16 @@
       | ${1:Date:} | |
       |---------------------------|---|
       | Wake up at 7AM?           | ${2:Y/N} |
-      | 5H continuous work time?  | ${4:Y/N} |
+      | 5H continuous work time?  | ${3:Y/N} |
 
       #### Notes:
 
-      *(Family, Wit, Health, Relationships, Wackiness Level)*
+      *(Family, Wit, Health, Relationships, Wackiness Level, Food)*
 
-      ${5}
+      ${4}
+
+      - ${5}
+
 
     """
   'Routines: weekly':

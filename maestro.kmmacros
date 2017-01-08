@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>505595195.82519197</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>%ShortDate%</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>505595318.14490497</real>
+				<key>ModificationDate</key>
+				<real>505595490.56452203</real>
+				<key>Name</key>
+				<string>pasteDate</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>F27C28DB-4701-4D39-BD63-476584CB43BD</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>63649426-A18B-4750-808D-DDDA3D298CC8</string>
+		<key>UID</key>
+		<string>4A4DFF7F-C650-4FDB-8620-439282DF2DC3</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>505595195.82519197</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>(650) 796-3716</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>505595318.14490497</real>
+				<key>ModificationDate</key>
+				<real>505595519.33552402</real>
+				<key>Name</key>
+				<string>pasteNumber</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>E80D510F-3240-4ADB-8283-88F52FF19577</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>63649426-A18B-4750-808D-DDDA3D298CC8</string>
+		<key>UID</key>
+		<string>4A4DFF7F-C650-4FDB-8620-439282DF2DC3</string>
+	</dict>
+</array>
+</plist>

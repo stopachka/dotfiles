@@ -16,6 +16,9 @@ You can paste this into Omnifocus to build a quick project
 - Accessibility: Trackpad: Enable Dragging -> Three finger drag
 - Install Alfred
 - Alfred: Add License
+- Alfred: Install alfred-maestro
+- Install Keyboard Maestro
+- Keyboard Maestro: Import maestro.kmmacros
 - Calendar: Set up icloud, exchange, gmail
 - Install Fantastical
 - Fantastical: Don't show in dock

@@ -30,7 +30,6 @@
     prefix: 'cwu'
     body: 'componentWillUpdate(${1}) {\n\t${2}\n}${3}'
 
-
   'React: class skeleton':
     prefix: 'rc'
     body: 'class ${1:Component} extends React.Component {\n\trender() {\n\t\treturn (\n\t\t\t${2:<div></div>}\n\t\t);\n\t}\n}'
@@ -144,6 +143,7 @@
       | Have you met with at least two friends?              | Y/N |
       | Where you responsive?                                | Y/N |
       | Something social planned for next weekend?           | Y/N |
+      | Did you make progress with women?                    | Y/N |
 
       #### Notes:
 

@@ -96,8 +96,8 @@
     'body': """
       | ${1:Date:} | |
       |---------------------------|---|
-      | Wake up at 7AM?           | ${2:Y/N} |
-      | 5H continuous work time?  | ${3:Y/N} |
+      | 5H continuous work time?  | ${2:Y/N} |
+      | Duolingo                  | ${3:Y/N} |
 
       #### Notes:
 
@@ -132,7 +132,8 @@
       | Health & Habits                                      |   |
       |------------------------------------------------------|---|
       | Did you work out 3 times?                            | Y/N |
-      | Did you wake up at 7AM most days?                    | Y/N |
+      | Did you do duolingo most days?                       | Y/N |
+      | Did you wake up without rushing most days?           | Y/N |
 
       #### Notes:
 

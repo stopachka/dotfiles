@@ -35,6 +35,7 @@ You can paste this into Omnifocus to build a quick project
 - Install Atom
 - Atom: set default theme to Solarized Dark
 - Atom: install vim-mode
+- Atom: install prettier
 - Install Iterm
 - Iterm: Install [Solarized Dark](https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized)
 - run `./dotfiles/invade.sh`

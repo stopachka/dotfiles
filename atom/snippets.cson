@@ -95,9 +95,9 @@
     'prefix': 'dl'
     'body': """
       | ${1:Date:} | |
-      |---------------------------|---|
-      | 5H continuous work time?  | ${2:Y/N} |
-      | Duolingo                  | ${3:Y/N} |
+      |----------------------------------------|---|
+      | 5H continuous work time?               | ${2:Y/N} |
+      | Were you proactive and positive today? | ${3:Y/N} |
 
       #### Notes:
 

@@ -98,12 +98,26 @@
       |----------------------------------------|---|
       | 5H continuous work time?               | ${2:Y/N} |
       | Were you proactive and positive today? | ${3:Y/N} |
+      | Kaizen on Wit Github?                  | ${4:Y/N} |
 
       #### Notes:
 
       *(Family, Wit, Health, Relationships, Wackiness Level, Food)*
 
-      - ${4}
+      ${5}
+
+    """
+  'Routines: daily -- weekend':
+    'prefix': 'dlw'
+    'body': """
+      | ${1:Date:} |
+      |----------------------------------------|
+
+      #### Notes:
+
+      *(Family, Wit, Health, Relationships, Wackiness Level, Food)*
+
+      - ${2}
 
     """
   'Routines: weekly':
@@ -170,4 +184,17 @@
 
       -----
 
+    """
+  'Routines: monthly':
+    'prefix': 'ml'
+    'body': """
+      **Sweep over Omnifocus** ${1:Y/N}
+
+      **Project Oveview: How did you do on your projects?**
+
+      ${2}
+
+      **Areas of Focus: How is progress on Areas of Focus? Anything to add or remove?**
+
+      ${3}
     """

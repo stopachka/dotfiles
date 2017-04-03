@@ -146,7 +146,6 @@
       | Health & Habits                                      |   |
       |------------------------------------------------------|---|
       | Did you work out 3 times?                            | Y/N |
-      | Did you do duolingo most days?                       | Y/N |
       | Did you wake up without rushing most days?           | Y/N |
 
       #### Notes:
@@ -178,12 +177,7 @@
       | Worked at a consistent time                             | Y/N |
       | Omnifocus is reviewed                                   | Y/N |
 
-      #### Plan for next week
-
-      ${6}
-
       -----
-
     """
   'Routines: monthly':
     'prefix': 'ml'

@@ -98,13 +98,12 @@
       |----------------------------------------|---|
       | 5H continuous work time?               | ${2:Y/N} |
       | Were you proactive and positive today? | ${3:Y/N} |
-      | Kaizen on Wit Github?                  | ${4:Y/N} |
 
       #### Notes:
 
       *(Family, Wit, Health, Relationships, Wackiness Level, Food)*
 
-      ${5}
+      ${4}
 
     """
   'Routines: daily -- weekend':

@@ -30,6 +30,8 @@ You can paste this into Omnifocus to build a quick project
 - Install Dropbox
 - Install Omnifocus
 - Install Spectacle
+- Spectacle: Set the default center to ctrl alt c
+- Alfred: Set default clipboard to alt command c
 - Install Skype
 - Install Caffeine
 - Install f.lux

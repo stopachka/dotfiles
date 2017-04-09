@@ -17,6 +17,8 @@ You can paste this into Omnifocus to build a quick project
 - Install Alfred
 - Alfred: Add License
 - Alfred: Install alfred-maestro
+- Alfred: Install alfred-omnifocus
+- Alfred: Add bunnylol to search
 - Install Keyboard Maestro
 - Keyboard Maestro: Import maestro.kmmacros
 - Calendar: Set up icloud, exchange, gmail

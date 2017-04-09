@@ -10,10 +10,6 @@ alias dash="cddash && atom ."
 alias routines="cddash && atom README.md"
 alias atomconf="atom ~/.atom"
 
-function wt() {
-  curl "wttr.in/${1:-sf}?m={$2:-SI}"
-}
-
 function gh-publish() {
   git checkout -B gh-pages
   git add -f build
@@ -32,6 +28,9 @@ alias ad='arc diff'
 # arc
 alias adr='arc diff --reviewers'
 alias adm='arc diff -m'
+alias ydp='yes | arc detect-depends'
+alias ycl='yes | arc feature --cleanup'
+alias submitstacked='yes | arc diff --verbatim --skip-binaries --nolint --nounit --allow-untracked --prepare --excuse "automated rebase/update" -m rebase'
 
 # git
 alias g='git status'

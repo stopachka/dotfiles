@@ -5,6 +5,44 @@
     # -----------------------------------------------------------------------------
     # $1
     """
+'.source.hack':
+  'A':
+    'prefix': 'A'
+    'body': 'Awaitable'
+  'fc':
+    'prefix': 'po'
+    'body': """
+      final class $1 {
+        public function __construct(
+          $2
+        ) {}
+      }
+    """
+  'sha':
+    'prefix': 'sha'
+    'body': """
+      const type $1 = shape(
+        $2
+      )
+    """
+  'psf':
+    'prefix': 'psf'
+    'body': """
+      public static function $1(
+        $2
+      ): $3 {
+        $4
+      }
+    """
+  'psaf':
+    'prefix': 'psaf'
+    'body': """
+      public static async function gen$1(
+        $2
+      ): Awaitable<$3> {
+        $4
+      }
+    """
 '.source.js':
   'React: componentDidMount() { ... }':
     prefix: 'cdm'

@@ -30,7 +30,7 @@ alias adr='arc diff --reviewers'
 alias adm='arc diff -m'
 alias ydp='yes | arc detect-depends'
 alias ycl='yes | arc feature --cleanup'
-alias submitstacked='yes | arc diff --verbatim --skip-binaries --nolint --nounit --allow-untracked --prepare --excuse "automated rebase/update" -m rebase'
+alias submitstacked='yes | (arc diff --verbatim --skip-binaries --nolint --nounit --allow-untracked --prepare --excuse "automated rebase/update" -m rebase)'
 
 # git
 alias g='git status'

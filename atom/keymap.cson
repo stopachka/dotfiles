@@ -1,3 +1,2 @@
 '.platform-darwin atom-workspace':
-  'cmd-shift-k': 'nuclide-file-tree:toggle'
   'cmd-shift-e': 'easy-motion-redux:words'

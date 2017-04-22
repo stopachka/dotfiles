@@ -18,6 +18,8 @@ You can paste this into Omnifocus to build a quick project
 - Alfred: Add License
 - Alfred: Install alfred-maestro
 - Alfred: Install alfred-omnifocus
+- Alfred: Install alfred chrome bookmarks https://github.com/blainesch/alfred-chrome-bookmarks
+- Alfred: Update chrome bookmarks to use bk as extension
 - Alfred: Add bunnylol to search
 - Install Keyboard Maestro
 - Keyboard Maestro: Import maestro.kmmacros

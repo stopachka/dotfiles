@@ -134,6 +134,7 @@
     'body': """
       | ${1:Date:} | |
       |----------------------------------------|---|
+      | Triaged 1 github issue?                | ${1:Y/N} |
       | 5H continuous work time?               | ${2:Y/N} |
       | Were you proactive and positive today? | ${3:Y/N} |
 

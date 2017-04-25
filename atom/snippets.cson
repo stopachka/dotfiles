@@ -134,15 +134,15 @@
     'body': """
       | ${1:Date:} | |
       |----------------------------------------|---|
-      | Triaged 1 github issue?                | ${1:Y/N} |
-      | 5H continuous work time?               | ${2:Y/N} |
-      | Were you proactive and positive today? | ${3:Y/N} |
+      | Triaged 1 github issue?                | ${2:Y/N} |
+      | 5H continuous work time?               | ${3:Y/N} |
+      | Were you proactive and positive today? | ${4:Y/N} |
 
       #### Notes:
 
       *(Family, Wit, Health, Relationships, Wackiness Level, Food)*
 
-      ${4}
+      ${5}
 
     """
   'Routines: daily -- weekend':

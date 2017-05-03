@@ -1,0 +1,3 @@
+set ignorecase smartcase
+inoremap jk <esc>
+nnoremap <leader>` :e#<cr>

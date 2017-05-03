@@ -1,5 +1,5 @@
--Xms4096m
--Xmx4096m
+-Xms4g
+-Xmx4g
 -XX:MaxPermSize=350m
--XX:ReservedCodeCacheSize=240m
+-XX:ReservedCodeCacheSize=300m
 -XX:+UseCompressedOops

@@ -6,6 +6,9 @@
     # $1
     """
 '.source.hack':
+  'Hack: pragma':
+    'prefix': 'pgm'
+    'body': '//-------------------------------------------------------------------------\n// ${1: Pragma}'
   'A':
     'prefix': 'A'
     'body': 'Awaitable'

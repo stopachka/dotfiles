@@ -11,6 +11,10 @@ export SAVEHIST=10000
 export HISTFILE="$HOME/.histfile"
 
 # python
+
+# add anaconda to path
+export PATH="$HOME/anaconda/bin:$PATH"
+
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
   source /usr/local/bin/virtualenvwrapper.sh
 fi

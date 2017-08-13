@@ -14,16 +14,3 @@ export HISTFILE="$HOME/.histfile"
 
 # add anaconda to path
 export PATH="$HOME/anaconda/bin:$PATH"
-
-if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
-  source /usr/local/bin/virtualenvwrapper.sh
-fi
-
-export WORKON_HOME=~/.virtualenvs
-
-### Ensure pip installs to virtualenvs only
-export PIP_VIRTUALENV_BASE=$WORKON_HOME
-export PIP_RESPECT_VIRTUALENV=true
-
-### Cache pip-installed packages to avoid re-downloading
-export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache

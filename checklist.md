@@ -51,8 +51,4 @@ You can paste this into Omnifocus to build a quick project
 - Install npm
 - Install nvm
 - Install lein
-- Install Python  
-  - `brew install python`
-  - `pip install ipython`
-  - `pip install virtualenv`
-  - `pip install virtualenvwrapper`
+- Install Anaconda

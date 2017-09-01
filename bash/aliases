@@ -10,27 +10,18 @@ alias dash="cddash && atom ."
 alias routines="cddash && atom README.md"
 alias atomconf="atom ~/.atom"
 
-function gh-publish() {
-  git checkout -B gh-pages
-  git add -f build
-  git commit -am "Rebuild website"
-  git filter-branch -f --prune-empty --subdirectory-filter build
-  git push -f origin gh-pages
-  git checkout -
-}
-
 # mercurial
 alias hc='hg commit'
 alias ha='hg amend'
 alias hu='hg update'
-alias ad='arc diff'
 
 # arc
-alias adr='arc diff --reviewers'
-alias adm='arc diff -m'
 alias ydp='yes | arc detect-depends'
 alias ycl='yes | arc feature --cleanup'
-alias submitstacked='yes | (arc diff --verbatim --skip-binaries --nolint --nounit --allow-untracked --prepare --excuse "automated rebase/update" -m rebase)'
+
+# python
+alias jp="jupyter"
+alias jpn="jp notebook
 
 # git
 alias g='git status'
@@ -49,7 +40,17 @@ alias glo='git log'
 alias gl='git pull'
 alias gp='git push'
 alias lg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%ad>%Creset' --abbrev-commit --date=short"
+alias ghu="git push heroku master"
+
 function gpm() {
   ga -A && gc -m $1 && gp
 }
-alias ghu="git push heroku master"
+
+function gh-publish() {
+  git checkout -B gh-pages
+  git add -f build
+  git commit -am "Rebuild website"
+  git filter-branch -f --prune-empty --subdirectory-filter build
+  git push -f origin gh-pages
+  git checkout -
+}

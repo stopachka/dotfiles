@@ -21,7 +21,7 @@ alias ycl='yes | arc feature --cleanup'
 
 # python
 alias jp="jupyter"
-alias jpn="jp notebook
+alias jpn="jp notebook"
 
 # git
 alias g='git status'

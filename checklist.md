@@ -39,9 +39,11 @@ You can paste this into Omnifocus to build a quick project
 - Install f.lux
 - Install Sketch
 - Install Atom
+- Install Source Code Pro https://fonts.google.com/specimen/Source+Code+Pro
 - Atom: set default theme to Solarized Dark
 - Atom: install vim-mode
 - Atom: install prettier
+- Atom: set the default font to Source Code Pro
 - Install Iterm
 - Iterm: Install [Solarized Dark](https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized)
 - run `./dotfiles/invade.sh`

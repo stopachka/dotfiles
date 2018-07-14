@@ -51,4 +51,3 @@
 - Install brew
 - Install nvm
 - Install lein
-- Install Anaconda

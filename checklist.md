@@ -1,56 +1,54 @@
 # Checklist
 
-You can paste this into Omnifocus to build a quick project
-
 - Display Preferences Pane: More Space
 - General: Apperance -> Graphite
 - General: Automatically Hide and Show the Menu Bar -> True
 - General: Highlight Color -> Graphite
 - Keyboard: Key Repeat -> Fast,
 - Keyboard: Delay Until Repeat -> Short
-- Keyboard: Modifier Keys: Caps Lock -> Esc
+- Keyboard: Modifier Keys: Caps Lock -> Control
 - Trackpad: Tap to click -> enable
 - Trackpad: Tracking Speed -> Fast
 - Trackpad: Click -> light
 - Accessibility: Trackpad: Scrolling Speed -> Fast
 - Accessibility: Trackpad: Enable Dragging -> Three finger drag
-- Install Alfred
-- Alfred: Add License
-- Alfred: Install alfred-maestro
-- Alfred: Install alfred-omnifocus
-- Alfred: Install alfred chrome bookmarks https://github.com/blainesch/alfred-chrome-bookmarks
-- Alfred: Update chrome bookmarks to use bk as extension
-- Alfred: Add bunnylol to search
-- Install Keyboard Maestro
-- Keyboard Maestro: Import maestro.kmmacros
-- Calendar: Set up icloud, exchange, gmail
-- Install Fantastical
-- Fantastical: Don't show in dock
+- Touch ID: Add Fingerprint
 - Install Chrome
-- Install Lastpass
-- Install Evernote
-- Install Dropbox
-- Install Omnifocus
+- Chrome: Settings -> Manage Passwords -> Disable offer to manage passwords
+- Install Lastpass and log in
 - Install Spectacle
 - Spectacle: Set the default center to ctrl alt c
-- Alfred: Set default clipboard to alt command c
-- Install Skype
+- Install Dropbox
+- Install Alfred
+- Alfred: Add License
+- Alfred: Install [alfred chrome bookmarks](https://github.com/blainesch/alfred-chrome-bookmarks)
+- Alfred: Update chrome bookmarks to use bk as extension
+- Alfred: Set the default shortcut to cmd + space
+- Spotlight: Set default shortcut to cmd + shift + space
+- Alfred Clipboard history: enable text + image + file lists
+- Alfred Clipboard history: cmd + option + c as shortcut 
+- App Store: Install Fantastical
+- App Store: Install Things 3
+- Fantastical: Don't show in dock
+- Install Evernote
+- Install Things3
 - Install Caffeine
-- Install f.lux
 - Install Sketch
+- Sketch: Add License
 - Install Atom
-- Install Source Code Pro https://fonts.google.com/specimen/Source+Code+Pro
+- Font: Install [Fira Code](https://github.com/tonsky/FiraCode)
 - Atom: set default theme to Solarized Dark
 - Atom: install vim-mode
 - Atom: install prettier
-- Atom: set the default font to Source Code Pro
+- Atom: set the default font to Fira Code
 - Install Iterm
-- Iterm: Install [Solarized Dark](https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized)
+- Iterm: set default theme to Solarized Dark
+- Iterm: set default font to Fira Code
+- `xcode-select --install`
+- Install ohmyzsh
+- git clone https://github.com/stopachka/dotfiles/
 - run `./dotfiles/invade.sh`
-- git clone dashboard
 - Install brew
-- Install brew cask
-- Install npm
 - Install nvm
 - Install lein
 - Install Anaconda

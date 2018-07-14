@@ -41,6 +41,9 @@
 - Atom: install vim-mode
 - Atom: install prettier
 - Atom: set the default font to Fira Code
+- Install IntelliJ IDEA
+- Install Cursive
+- Cursive: Add License
 - Install Iterm
 - Iterm: set default theme to Solarized Dark
 - Iterm: set default font to Fira Code

@@ -1,15 +1,15 @@
 [core]
-  editor = atom --wait
+	editor = atom --wait
 [user]
-  name = stopachka
-  email = stepan.p@gmail.com
+	name = stopachka
+	email = stepan.p@gmail.com
 [credential]
 	helper = osxkeychain
 [push]
-  default = upstream
+	default = upstream
 [url "https://github.com/"]
-  insteadOf = git@github.com:
+	insteadOf = git@github.com:
 [url "https://"]
-  insteadOf = git://
+	insteadOf = git://
 [color]
-  ui = true
+	ui = true

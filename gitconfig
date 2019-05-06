@@ -4,7 +4,7 @@
   name = stopachka
   email = stepan.p@gmail.com
 [credential]
-  helper = osxkeychain
+	helper = osxkeychain
 [push]
   default = upstream
 [url "https://github.com/"]

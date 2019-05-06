@@ -27,21 +27,11 @@ fi
 mkdir -p "$PREFIX"
 mkdir -p "$BACKUPS/vim_backups"
 
-sym ackrc          .ackrc
 sym bashrc         .bashrc
 sym gitconfig      .gitconfig
 sym tmux.conf      .tmux.conf
 sym zshrc          .zshrc
 
 touch $DOTFILES/bash/local
-
-# Atom
-sym atom/keymap.cson .atom/keymap.cson
-sym atom/snippets.cson .atom/snippets.cson
-sym atom/styles.less .atom/styles.less
-
-# IntelliJ Idea
-sym idea/idea.vmoptions  Library/Preferences/IdeaIC2016.3/idea.vmoptions
-sym idea/idea.properties Library/Preferences/IdeaIC2016.3/idea.properties
 
 echo "> Invasion successful!"

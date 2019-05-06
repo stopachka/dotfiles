@@ -1,9 +1,7 @@
 # Checklist
 
 - Display Preferences Pane: More Space
-- General: Apperance -> Graphite
 - General: Automatically Hide and Show the Menu Bar -> True
-- General: Highlight Color -> Graphite
 - Keyboard: Key Repeat -> Fast,
 - Keyboard: Delay Until Repeat -> Short
 - Keyboard: Modifier Keys: Caps Lock -> Control
@@ -17,7 +15,6 @@
 - Chrome: Settings -> Manage Passwords -> Disable offer to manage passwords
 - Install Lastpass and log in
 - Install Spectacle
-- Spectacle: Set the default center to ctrl alt c
 - Install Dropbox
 - Install Alfred
 - Alfred: Add License
@@ -26,12 +23,10 @@
 - Alfred: Set the default shortcut to cmd + space
 - Spotlight: Set default shortcut to cmd + shift + space
 - Alfred Clipboard history: enable text + image + file lists
-- Alfred Clipboard history: cmd + option + c as shortcut 
 - App Store: Install Fantastical
 - App Store: Install Things 3
 - Fantastical: Don't show in dock
 - Install Evernote
-- Install Things3
 - Install Caffeine
 - Install Sketch
 - Sketch: Add License

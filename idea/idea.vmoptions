@@ -1,3 +1,0 @@
--Xms1g
--Xmx6g
--XX:ReservedCodeCacheSize=300m

@@ -23,7 +23,6 @@
 - App Store: Install Things 3
 - Install Evernote
 - Install Caffeine
-- Sketch: Add License
 - Install VSCode
 - Font: Install [Fira Code](https://github.com/tonsky/FiraCode)
 - Install IntelliJ IDEA

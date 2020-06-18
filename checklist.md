@@ -15,13 +15,10 @@
 - Chrome: Settings -> Manage Passwords -> Disable offer to manage passwords
 - Install Lastpass and log in
 - Install Spectacle
-- Install Dropbox
+- Spotlight: Set default shortcut to cmd + shift + space
 - Install Alfred
 - Alfred: Add License
-- Alfred: Install [alfred chrome bookmarks](https://github.com/blainesch/alfred-chrome-bookmarks)
-- Alfred: Update chrome bookmarks to use bk as extension
 - Alfred: Set the default shortcut to cmd + space
-- Spotlight: Set default shortcut to cmd + shift + space
 - Alfred Clipboard history: enable text + image + file lists
 - App Store: Install Fantastical
 - App Store: Install Things 3

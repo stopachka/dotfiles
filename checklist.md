@@ -29,9 +29,8 @@
 - Install Cursive
 - Cursive: Add License
 - Install XCode
-- Install Iterm
-- Iterm: set default theme to Solarized Dark
-- Iterm: set default font to Fira Code
+- Terminal: set default theme to Solarized Dark
+- Terminal: set default font to Fira Code 12pt
 - Install ohmyzsh
 - git clone https://github.com/stopachka/dotfiles/
 - run `./dotfiles/invade.sh`

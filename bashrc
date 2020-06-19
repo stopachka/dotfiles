@@ -14,6 +14,8 @@ export HISTFILE="$HOME/.histfile"
 # -----
 # Aliases
 
+export CDPATH=".:$HOME/projects"
+
 #!/usr/bin/env bash
 
 # general

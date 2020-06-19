@@ -1,5 +1,5 @@
 [core]
-	editor = atom --wait
+	editor = code --wait
 [user]
 	name = stopachka
 	email = stepan.p@gmail.com

@@ -10,7 +10,6 @@
 - Trackpad: Click -> light
 - Accessibility: Trackpad: Scrolling Speed -> Fast
 - Accessibility: Trackpad: Enable Dragging -> Three finger drag
-- Touch ID: Add Fingerprint
 - Install Chrome
 - Chrome: Settings -> Manage Passwords -> Disable offer to manage passwords
 - Install Lastpass and log in
@@ -35,4 +34,5 @@
 - git clone https://github.com/stopachka/dotfiles/
 - run `./dotfiles/invade.sh`
 - Install brew
-- Install nvm
+- Install tmux
+- Install fnm

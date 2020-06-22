@@ -35,5 +35,3 @@ chpwd() { ls }
 
 # bindings
 bindkey '^R' 'history-incremental-search-backward'
-
-

@@ -59,4 +59,17 @@ function gh-publish() {
   git checkout -
 }
 
+function ssid () {
+  /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I | \
+    awk '/ SSID/ {print substr($0, index($0, $2))}'
+}
+
+function pass () {
+  security find-generic-password -gwa "$1"
+}
+
+function wifipass () {
+  pass "$(ssid)"
+}
+
 . ~/dotfiles/local

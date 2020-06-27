@@ -44,9 +44,10 @@ alias gl='git pull'
 alias gp='git push'
 alias lg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%ad>%Creset' --abbrev-commit --date=short"
 alias ghu="git push heroku master"
+alias gx="echo 'yolo' && git add -A && git commit --amend --no-edit && git push -f"
 
 function gpm() {
-  ga -A && gc -m $1 && gp
+  ga -A && gc -m "$*" && gp
 }
 
 function gh-publish() {

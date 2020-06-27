@@ -36,4 +36,4 @@
 - Install brew
 - brew install tmux
 - brew install fnm
-- brew install hub
+- brew install github/gh/gh

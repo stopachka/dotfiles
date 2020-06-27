@@ -59,6 +59,10 @@ function gh-publish() {
   git checkout -
 }
 
+function github() {
+  echo "https://github.com/$(git config --get remote.origin.url | sed -E 's,.*github.com(:|/)([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)(\.git)?,\2/\3,')"
+}
+
 function ssid () {
   /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I | \
     awk '/ SSID/ {print substr($0, index($0, $2))}'

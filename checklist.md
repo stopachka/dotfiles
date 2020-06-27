@@ -34,5 +34,6 @@
 - git clone https://github.com/stopachka/dotfiles/
 - run `./dotfiles/invade.sh`
 - Install brew
-- Install tmux
-- Install fnm
+- brew install tmux
+- brew install fnm
+- brew install hub

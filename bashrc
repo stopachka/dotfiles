@@ -72,4 +72,5 @@ function wifipass () {
   pass "$(ssid)"
 }
 
+. ~/.bash_profile
 . ~/dotfiles/local

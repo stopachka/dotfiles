@@ -31,7 +31,10 @@ sym bashrc         .bashrc
 sym gitconfig      .gitconfig
 sym tmux.conf      .tmux.conf
 sym zshrc          .zshrc
-
+sym lein           .lein
+sym vim            .vim
+sym vim/vimrc      .vimrc
+sym init.vim 
 touch $DOTFILES/bash/local
 
 echo "> Invasion successful!"

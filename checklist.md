@@ -28,6 +28,7 @@
 - Install Clojure
 - Install brew
 - brew install tmux
+- brew install gh
 - brew install fnm
 - brew install nvim
 - iterm2: set default theme to Solarized Dark

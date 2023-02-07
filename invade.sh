@@ -31,7 +31,6 @@ sym bashrc         .bashrc
 sym gitconfig      .gitconfig
 sym tmux.conf      .tmux.conf
 sym zshrc          .zshrc
-sym lein           .lein
 sym nvim.vim       .config/nvim/init.vim
 
 touch $DOTFILES/bash/local

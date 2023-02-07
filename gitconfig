@@ -13,3 +13,5 @@
 	insteadOf = git://
 [color]
 	ui = true
+[pull]
+	rebase = true

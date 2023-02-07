@@ -35,3 +35,10 @@ chpwd() { ls }
 
 # bindings
 bindkey '^R' 'history-incremental-search-backward'
+
+# bun completions
+[ -s "/Users/stopa/.bun/_bun" ] && source "/Users/stopa/.bun/_bun"
+
+# Bun
+export BUN_INSTALL="/Users/stopa/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

@@ -13,7 +13,7 @@
 - Install Chrome
 - Chrome: Settings -> Manage Passwords -> Disable offer to manage passwords
 - Install Lastpass and log in
-- Install Spectacle
+- Install Rectangle
 - Spotlight: Set default shortcut to cmd + shift + space
 - Install Alfred
 - Alfred: Add License
@@ -24,16 +24,14 @@
 - Install Caffeine
 - Install VSCode
 - Font: Install [Fira Code](https://github.com/tonsky/FiraCode)
-- Install IntelliJ IDEA
-- Install Cursive
-- Cursive: Add License
 - Install XCode
-- Terminal: set default theme to Solarized Dark
-- Terminal: set default font to Fira Code 12pt
-- Install ohmyzsh
-- git clone https://github.com/stopachka/dotfiles/
-- run `./dotfiles/invade.sh`
+- Install Clojure
 - Install brew
 - brew install tmux
 - brew install fnm
-- brew install github/gh/gh
+- brew install nvim
+- iterm2: set default theme to Solarized Dark
+- iterm2: set default font to Fira Code 12pt
+- Install ohmyzsh
+- git clone https://github.com/stopachka/dotfiles/
+- run `./dotfiles/invade.sh`

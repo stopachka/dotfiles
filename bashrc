@@ -26,6 +26,10 @@ alias psimple="python -m SimpleHTTPServer"
 alias jp="jupyter"
 alias jpn="jp notebook"
 
+# vim
+alisa vi="vim"
+alias vim="nvim"
+
 # git
 alias g='git status'
 alias gst='git status'

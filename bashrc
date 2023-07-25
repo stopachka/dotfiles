@@ -27,7 +27,7 @@ alias jp="jupyter"
 alias jpn="jp notebook"
 
 # vim
-alisa vi="vim"
+alias vi="vim"
 alias vim="nvim"
 
 # git

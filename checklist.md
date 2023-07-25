@@ -31,6 +31,8 @@
 - brew install gh
 - brew install fnm
 - brew install nvim
+- brew tap burntsushi/ripgrep https://github.com/BurntSushi/ripgrep.git
+- brew install burntsushi/ripgrep/ripgrep-bin
 - iterm2: set default theme to Solarized Dark
 - iterm2: set default font to Fira Code 12pt
 - Install ohmyzsh

@@ -7,8 +7,9 @@ call plug#begin()
   Plug 'guns/vim-sexp' " paredit for vim
   Plug 'tpope/vim-sexp-mappings-for-regular-people'
   Plug 'clojure-vim/clojure.vim'
-  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-  Plug 'junegunn/fzf.vim'
+  Plug 'mileszs/ack.vim'  " Enable fuzzy-search
+  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " File search
+  Plug 'junegunn/fzf.vim' " Enables fzf for vim
   Plug 'neoclide/coc.nvim' " Language servers for vim!
   Plug 'editorconfig/editorconfig-vim'
   Plug 'github/copilot.vim', {'branch': 'release'}
@@ -122,9 +123,6 @@ set shiftwidth=4
 " Easy clipboard paste {{{2
 :nnoremap <silent><leader>v :r !pbpaste<CR><CR>
 
-" Easy grep under cursor {{{2
-:nmap <silent><leader>r viw"ry:Ag! <C-R>r<CR><CR>
-
 " Easy code folding {{{2
 :nnoremap <Space> za
 
@@ -173,8 +171,11 @@ nmap <leader>p :Files<CR>
 :nnoremap <leader>g <C-]>
 :nnoremap <leader>b <C-t>
 
-" Easy Ack/Ag {{{2
-:nnoremap <leader>a :Ag
+" Easy Ack {{{2
+:nnoremap <leader>a :Ack!<Space>
+
+" Quick Search {{{2
+:nnoremap <silent><leader>f :Ack!<CR>
 
 " Easy commenting {{{2
 :nnoremap // :TComment<CR>
@@ -214,14 +215,24 @@ set rtp+=/usr/local/opt/fzf
 set omnifunc=syntaxcomplete#Complete
 
 " Plugins {{{1
-" Ag {{{2
-if executable('ag')
-  " Use ag over grep
-  set grepprg=ag\ --nogroup\ --nocolor
 
-  " use ag over ack
-  let g:ackprg = 'ag --vimgrep'
-endif
+" Ack {{{2
+
+" Use ripgrep for searching ⚡️
+" Options include:
+" --vimgrep -> Needed to parse the rg response properly for ack.vim
+" --type-not sql -> Avoid huge sql file dumps as it slows down the search
+" --smart-case -> Search case insensitive if all lowercase pattern, Search case sensitively otherwise
+let g:ackprg = 'rg --vimgrep --type-not sql --smart-case'
+
+" Auto close the Quickfix list after pressing '<enter>' on a list item
+let g:ack_autoclose = 1
+
+" Any empty ack search will search for the word the cursor is on
+let g:ack_use_cword_for_empty_search = 1
+
+" Don't jump to first match
+cnoreabbrev Ack Ack!
 
 " Lightline {{{2
 " General settings
@@ -366,7 +377,13 @@ else
   inoremap <silent><expr> <c-@> coc#refresh()
 endif
 
-inoremap <silent> <expr><cr>        coc#pum#visible() ? coc#_select_confirm() : "\<CR>"
+inoremap <silent> <expr><cr>    coc#pum#visible() ? coc#_select_confirm() : "\<CR>"
+
+" GoTo code navigation.
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
 
 " Remap keys for gotos
 nmap <leader>c                      <Plug>(coc-codeaction-cursor)
@@ -382,8 +399,6 @@ nmap <silent> ]k :CocNext<cr>
 
 " Highlight symbol under cursor on CursorHold
 autocmd CursorHold * silent call CocActionAsync('highlight')
-vmap <leader>f <Plug>(coc-format-selected)
-nmap <leader>f <Plug>(coc-format-selected)
 
 function! Expand(exp) abort
     let l:result = expand(a:exp)

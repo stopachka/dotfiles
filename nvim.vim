@@ -352,6 +352,8 @@ let g:conjure#highlight#enabled = v:true
 " }}}
 
 " COC {{{1
+let g:coc_global_extensions = ['coc-tsserver', 'coc-json', 'coc-prettier', 'coc-eslint', '@yaegassy/coc-tailwindcss3']
+
 " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
 " delays and poor user experience.
 set updatetime=300

@@ -32,6 +32,7 @@ sym gitconfig      .gitconfig
 sym tmux.conf      .tmux.conf
 sym zshrc          .zshrc
 sym nvim.vim       .config/nvim/init.vim
+sym rgignore       .rgignore
 
 touch $DOTFILES/bash/local
 

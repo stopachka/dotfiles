@@ -208,9 +208,6 @@ cnoremap <C-l> <Right>
 " Thanks:  http://stackoverflow.com/a/19314347
 filetype plugin indent on
 
-" Set path for fzf
-set rtp+=/usr/local/opt/fzf
-
 " Use Omni-Completion
 set omnifunc=syntaxcomplete#Complete
 

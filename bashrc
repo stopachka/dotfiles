@@ -11,6 +11,7 @@ export HISTSIZE=10000
 export SAVEHIST=10000
 export HISTFILE="$HOME/.histfile"
 
+
 # -----
 # Aliases
 
@@ -75,6 +76,9 @@ function pass () {
 function wifipass () {
   pass "$(ssid)"
 }
+
+
+
 
 . ~/.bash_profile
 . ~/dotfiles/local

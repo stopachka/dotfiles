@@ -1,0 +1,28 @@
+# Don't search through minified assets
+*.min.css
+*.min.js
+
+# General
+/log/
+/tmp/
+.git/
+*.db
+.gitignore
+
+# Node related
+/node_modules/
+/dist/
+/build/
+
+# Python/Flask related
+.webassets-cache
+.coverage
+coverage.xml
+pylintrc
+pytests.xml
+
+# vi/vim swap files
+[._]*.swp
+
+# Go projects
+_vendor/

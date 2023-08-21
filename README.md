@@ -1,6 +1,6 @@
 # dotfiles
 
-Inspired by willy's [dotfiles](https://github.com/blandinw/dotfiles).
+Inspired by [Willy's](https://github.com/blandinw/dotfiles) and [Joe's](https://github.com/nezaj/dotfiles) dotfiles.
 
 ### Get started
 

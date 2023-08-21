@@ -10,9 +10,20 @@ call plug#begin()
   Plug 'mileszs/ack.vim'  " Enable fuzzy-search
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " File search
   Plug 'junegunn/fzf.vim' " Enables fzf for vim
-  Plug 'neoclide/coc.nvim' " Language servers for vim!
   Plug 'editorconfig/editorconfig-vim'
   Plug 'github/copilot.vim', {'branch': 'release'}
+
+  " Javascript
+  Plug 'https://github.com/elzr/vim-json'
+  Plug 'https://github.com/pangloss/vim-javascript'
+  Plug 'https://github.com/leafgarland/typescript-vim'
+  Plug 'https://github.com/MaxMEllon/vim-jsx-pretty'
+  Plug 'https://github.com/prettier/vim-prettier'
+
+  " Intellisense
+  Plug 'neoclide/coc.nvim', {'branch': 'release'} " Language servers for vim!
+  Plug 'antoinemadec/coc-fzf', {'branch': 'release'}  " coc fzf
+
 call plug#end()
 
 " vim:foldmethod=marker:foldlevel=0

@@ -14,7 +14,6 @@ call plug#begin()
   Plug 'github/copilot.vim', {'branch': 'release'}
 
   " Javascript
-  Plug 'https://github.com/elzr/vim-json'
   Plug 'https://github.com/pangloss/vim-javascript'
   Plug 'https://github.com/leafgarland/typescript-vim'
   Plug 'https://github.com/MaxMEllon/vim-jsx-pretty'
@@ -25,8 +24,6 @@ call plug#begin()
   Plug 'antoinemadec/coc-fzf', {'branch': 'release'}  " coc fzf
 
 call plug#end()
-
-" vim:foldmethod=marker:foldlevel=0
 
 " Stopa's vimrc -- my magic sauce for getting things done!
 " -----------------------------------------------------------------------------
@@ -323,14 +320,6 @@ augroup configgroup
 
     " Clean up trailing white spaces {{{2
     autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
-
-    " Python folding {{{2
-    au FileType python setlocal foldmethod=indent
-    au FileType python setlocal foldlevel=0
-
-    " Javascript folding {{{2
-    au FileType javascript,jsx,tsx setlocal foldmethod=syntax
-    au FileType javascript,jsx,tsx setlocal foldlevel=1
 
     " Rainbow-ify parens/brackets for selected file types {{{2
     au FileType javascriptreact,jsx call rainbow#load()

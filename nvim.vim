@@ -321,9 +321,6 @@ augroup configgroup
     " Clean up trailing white spaces {{{2
     autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
 
-    " Rainbow-ify parens/brackets for selected file types {{{2
-    au FileType javascriptreact,jsx call rainbow#load()
-
     " Enable vim-jinja highlighting for .jinja files {{{2
     autocmd BufNewFile,BufRead *.jinja set filetype=htmljinja
 

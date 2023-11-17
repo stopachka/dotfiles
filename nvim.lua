@@ -1,7 +1,13 @@
+-- **************************************
+--
+-- nvim config! 
+-- heavily inspired from nezaj's config 
+--
+-- **************************************
+
 -------------------
 -- Settings
 -------------------
-
 vim.opt.guicursor = ""
 
 vim.opt.nu = true
@@ -12,6 +18,9 @@ vim.opt.softtabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 
+
+vim.o.ignorecase = true  -- Make searches case-insensitive
+vim.o.smartcase = true   -- But case-sensitive if uppercase is used in the search
 vim.opt.smartindent = true
 
 vim.opt.wrap = false
@@ -66,9 +75,6 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
--- Join lines and keep cursor
-vim.keymap.set("n", "J", "mzJ`z")
-
 -- Delete without copying to buffer
 vim.keymap.set("x", "<leader>p", "\"_dP")
 vim.keymap.set("n", "<leader>d", "\"_d")
@@ -113,9 +119,6 @@ vim.keymap.set("n", "<leader>ed", ":e $MYTODOS<CR>", { noremap = true, silent = 
 -- Clear search
 vim.keymap.set("n", "<leader>/", ":nohlsearch<CR>", { noremap = true, silent = true })
 
--- Command Mode
-vim.keymap.set("n", ";", ":", { noremap = true })
-
 -- Begin/end line navigation
 vim.keymap.set("n", "H", "0w", { noremap = true })
 vim.keymap.set("n", "L", "$", { noremap = true })
@@ -126,8 +129,30 @@ vim.keymap.set("v", "<leader>c", ":w !pbcopy<CR><CR>", { noremap = true, silent 
 -- Clipboard paste
 vim.keymap.set("n", "<leader>v", ":r !pbpaste<CR><CR>", { noremap = true, silent = true })
 
+-- Tabs
+vim.api.nvim_set_keymap('n', '<leader>1', '1gt', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>2', '2gt', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>3', '3gt', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>4', '4gt', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>5', '5gt', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>6', '6gt', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>7', '7gt', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>8', '8gt', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>9', '9gt', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>0', ':tablast<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>x', ':tabclose<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>t', ':0tabnew<CR>', { noremap = true, silent = true })
+
+
 -------------------
 -- Packer
+--
+-- Once upon a time I used pathogen, which I liked!
+-- Then I switched to vim-plug, which I must admit was better
+-- Now I'm on Packer. Is it better? I don't know yet...
+-- But it looks like I'm already behind? There's something called Lazy now...
+--
+-- Such is vim life
 -------------------
 
 -- Use a protected call so we don't error out on first use
@@ -159,6 +184,7 @@ require('packer').startup(function(use)
   }
 
   -- colors
+
   use({
 	  'kabouzeid/nvim-jellybeans',
     requires = "rktjmp/lush.nvim",
@@ -166,6 +192,7 @@ require('packer').startup(function(use)
 		  vim.cmd('colorscheme jellybeans')
 	  end
   })
+
 
   -- syntax highlighting
   use {
@@ -183,12 +210,7 @@ require('packer').startup(function(use)
   use("tpope/vim-fugitive")
 
   -- Comments
-  use {
-    'numToStr/Comment.nvim',
-    config = function()
-        require('Comment').setup()
-    end
-  }
+  use 'tomtom/tcomment_vim'
 
   -- Nerdtree
   use 'preservim/nerdtree'
@@ -227,9 +249,23 @@ require('packer').startup(function(use)
 
 end)
 
+-------------------
+-- Autocommands
+-------------------
+-- Autoformat
+vim.api.nvim_create_augroup('LspFormatting', { clear = true })
+vim.api.nvim_create_autocmd('BufWritePre', {
+  group = 'LspFormatting',
+  pattern = '*',
+  callback = function()
+    vim.lsp.buf.format()
+  end,
+})
+
+
 -- **************************************
 --
--- Plugins
+-- Plugin settings below. Beware, here be dragons
 --
 -- **************************************
 
@@ -237,7 +273,6 @@ end)
 -- LSP
 -- For all my intelisense needs
 -------------------
-
 local lsp = require("lsp-zero")
 
 lsp.preset("recommended")
@@ -287,21 +322,21 @@ lsp.on_attach(function(client, bufnr)
   vim.keymap.set("n", "[d", function() vim.diagnostic.goto_next() end, opts)
   vim.keymap.set("n", "]d", function() vim.diagnostic.goto_prev() end, opts)
   vim.keymap.set("n", "<leader>vca", function() vim.lsp.buf.code_action() end, opts)
-  vim.keymap.set("n", "<leader>vrr", function() vim.lsp.buf.references() end, opts)
-  vim.keymap.set("n", "<leader>vrn", function() vim.lsp.buf.rename() end, opts)
+  vim.keymap.set("n", "<leader>gr", function() vim.lsp.buf.references() end, opts)
+  vim.keymap.set("n", "<leader>rn", function() vim.lsp.buf.rename() end, opts)
   vim.keymap.set("i", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
 end)
 
 lsp.setup()
 
 vim.diagnostic.config({
-    virtual_text = true
+  virtual_text = false
 })
 
 -------------------
 -- NERDTree
+-- I couldn't get netrw working the way I like and NERDTree _just works_
 -------------------
-
 -- Files and directories I don't want to see
 -- Note the use of vim-style regex
 vim.g.NERDTreeIgnore = {
@@ -319,12 +354,11 @@ vim.g.NERDTreeDirArrows = 1
 
 -------------------
 -- Telescope
--- Fuzzy-finder!
+-- Fuzzy-finder ftw!
 -------------------
 local builtin = require('telescope.builtin')
-vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
-vim.keymap.set('n', '<leader>p', builtin.git_files, {})
-vim.keymap.set('n', '<leader>b', builtin.buffers, {})
+vim.keymap.set('n', '<leader>p', builtin.find_files, {})
+vim.keymap.set('n', ';', ':Telescope buffers sort_lastused=true<CR>', {noremap = true, silent = true})
 vim.keymap.set('n', '<leader>a', function()
 	builtin.grep_string({ search = vim.fn.input("Grep > ") })
 end)
@@ -362,3 +396,10 @@ require'nvim-treesitter.configs'.setup {
 -- Fancy undo.
 -------------------
 vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
+
+-------------------
+-- Tcomment
+-- Commenting made easy!
+-------------------
+vim.api.nvim_set_keymap('n', '//', ':TComment<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('v', '//', ':TComment<CR>', { noremap = true, silent = true })

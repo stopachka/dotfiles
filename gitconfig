@@ -5,6 +5,8 @@
 	email = stepan.p@gmail.com
 [credential]
 	helper = osxkeychain
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager
 [push]
 	default = upstream
 [url "https://github.com/"]
@@ -23,3 +25,5 @@
     unstage = reset HEAD --
     last = log -1 HEAD
     graph = log --graph --decorate --oneline
+[credential "https://dev.azure.com"]
+	useHttpPath = true

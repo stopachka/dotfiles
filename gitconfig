@@ -27,3 +27,5 @@
     graph = log --graph --decorate --oneline
 [credential "https://dev.azure.com"]
 	useHttpPath = true
+[credential "https://git.heroku.com"]
+	provider = generic

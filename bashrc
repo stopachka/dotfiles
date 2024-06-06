@@ -14,7 +14,7 @@ export HISTFILE="$HOME/.histfile"
 # -----
 # Aliases
 
-export CDPATH=".:$HOME/projects:$HOME/projects/instant-private:$HOME/projects/instant-local"
+export CDPATH=".:$HOME/projects:$HOME/projects/instant"
 
 #!/usr/bin/env bash
 

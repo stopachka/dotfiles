@@ -186,10 +186,9 @@ require('packer').startup(function(use)
   -- colors
 
   use({
-	  'kabouzeid/nvim-jellybeans',
-    requires = "rktjmp/lush.nvim",
+	  'folke/tokyonight.nvim',
 	  config = function()
-		  vim.cmd('colorscheme jellybeans')
+		  vim.cmd('colorscheme tokyonight')
 	  end
   })
 

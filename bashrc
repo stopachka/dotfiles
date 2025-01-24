@@ -14,7 +14,7 @@ export HISTFILE="$HOME/.histfile"
 # -----
 # Aliases
 
-export CDPATH=".:$HOME/projects:$HOME/projects/instant"
+export CDPATH=".:$HOME/projects:$HOME/projects/instant:$HOME/projects/instant/client/sandbox:$HOME/projects/instant/client/packages"
 
 #!/usr/bin/env bash
 
@@ -81,3 +81,8 @@ function wifipass () {
 
 . ~/.bash_profile
 . ~/dotfiles/local
+
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+. "/Users/stopa/.deno/env"

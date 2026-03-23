@@ -30,6 +30,10 @@ alias jpn="jp notebook"
 alias vi="vim"
 alias vim="nvim"
 
+# ai
+alias codex='codex --dangerously-bypass-approvals-and-sandbox'
+alias claude='claude --dangerously-skip-permissions'
+
 # git
 alias g='git status'
 alias gst='git status'

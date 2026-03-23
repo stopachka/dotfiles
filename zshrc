@@ -63,4 +63,14 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
-. "/Users/stopa/.deno/env"
+
+export PATH="${HOME}/.local/bin:$PATH"
+
+
+# opencode
+export PATH=/Users/stopa/.opencode/bin:$PATH
+
+KRADLE_AC_ZSH_SETUP_PATH=/Users/stopa/Library/Caches/kradle/autocomplete/zsh_setup && test -f $KRADLE_AC_ZSH_SETUP_PATH && source $KRADLE_AC_ZSH_SETUP_PATH; # kradle autocomplete setup
+# Added by flyctl installer
+export FLYCTL_INSTALL="/Users/stopa/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"

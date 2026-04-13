@@ -21,14 +21,16 @@ setopt share_history
 
 fpath=(~/_w/forks/zsh-completions/src $fpath)
 
-# hack to get multiline prompt
 precmd() {
   vcs_info
 }
+
+# Name the current tmux window (uses current dir name if no arg given)
+tw() {
+  tmux rename-window "${1:-$(basename "$PWD")}"
+}
 RPROMPT='${vcs_info_msg_0_}'
-PROMPT='\
-%B%F{075}%n@%m%f%b%F{10}:%f%F{242}%~%f \
-%F{248}λ%f '
+PROMPT='%B%F{075}%n@%m%f%b%F{10}:%f%F{242}%~%f %F{248}λ%f '
 
 # ls after current directory is changed
 chpwd() { ls }

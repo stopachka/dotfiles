@@ -76,3 +76,7 @@ KRADLE_AC_ZSH_SETUP_PATH=/Users/stopa/Library/Caches/kradle/autocomplete/zsh_set
 # Added by flyctl installer
 export FLYCTL_INSTALL="/Users/stopa/.fly"
 export PATH="$FLYCTL_INSTALL/bin:$PATH"
+# Load the Things CLI authorization token from the macOS Keychain.
+if command -v security >/dev/null 2>&1; then
+  export THINGS_AUTH_TOKEN="$(security find-generic-password -a "$(id -un)" -s 'Things CLI authorization token' -w 2>/dev/null)"
+fi

@@ -33,6 +33,7 @@ sym tmux.conf      .tmux.conf
 sym zshrc          .zshrc
 sym nvim.lua       .config/nvim/init.lua
 sym rgignore       .rgignore
+sym aerospace.toml .aerospace.toml
 
 touch $DOTFILES/bash/local
 

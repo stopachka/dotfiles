@@ -237,7 +237,7 @@ require('packer').startup(function(use)
   use 'MunifTanjim/prettier.nvim'
   
   -- Clojure things
-  use 'Olical/conjure'
+  use { 'Olical/conjure', branch = 'main' }
   use 'guns/vim-sexp'
   use 'tpope/vim-sexp-mappings-for-regular-people'
   use 'tpope/vim-repeat'

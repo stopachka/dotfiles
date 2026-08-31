@@ -25,7 +25,9 @@
     unstage = reset HEAD --
     last = log -1 HEAD
     graph = log --graph --decorate --oneline
-[credential "https://dev.azure.com"]
-	useHttpPath = true
 [credential "https://git.heroku.com"]
 	provider = generic
+[credential "https://git.chatgpt-team.site"]
+	provider = generic
+[credential "https://dev.azure.com"]
+	useHttpPath = true
